@@ -47,7 +47,7 @@
 	</p>
 	<sidebyside width="50%">
 		<image source="images/financial_math/2_4/interest_principal.png">
-			<description>A graph that shows how most of the payment goes to interest at the beginning of the loan and that decreases over time until the end of the loan when most of the payment goes toward the principal.</description>
+			<shortdescription>A graph that shows how most of the payment goes to interest at the beginning of the loan and that decreases over time until the end of the loan when most of the payment goes toward the principal.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -179,7 +179,7 @@
 			</p>
 			</stack>
 		<image source="images/financial_math/2_4/loan_formulas1.png">
-		<description>An image of the spreadsheet showing the formula used and the result.</description>
+		<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 		</image>
 		</sidebyside>
 		<p>
@@ -206,7 +206,7 @@
 		</p>
 
 		<p>
-			Teresa’s car payment would be $347.65.
+			Teresa's car payment would be $347.65.
 		</p>
 		<p>
 			Now for the <insert>5-year loan</insert> at 4% APR, we enter:
@@ -222,7 +222,7 @@
 			</p>
 			</stack>
 			<image source="images/financial_math/2_4/loan_formulas2.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -249,7 +249,7 @@
 			</md>
 		</p>
 		<p>
-			Now let’s compare the loans by finding out how much Teresa would pay in interest for each loan.
+			Now let's compare the loans by finding out how much Teresa would pay in interest for each loan.
 		</p>
 		<sidebyside widths="46% 46%" margins="0%">
 			<stack>
@@ -275,7 +275,7 @@
 	</example>
 
 	<p>
-		In addition to loan payments, we can calculate the amount of loan we can afford given a monthly payment. Let’s look at that in the next example.
+		In addition to loan payments, we can calculate the amount of loan we can afford given a monthly payment. Let's look at that in the next example.
 	</p>
 
 	<example>
@@ -294,7 +294,7 @@
 			<cd>=PV(0.03/12, 12*5, 200,0)</cd> which gives $11,130.47.
 		</p>
 		<image source="images/financial_math/2_4/loan_formulas3.png">
-		<description>An image of the spreadsheet showing the formula used and the result.</description>
+		<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 		</image>
 		</sidebyside>
 
@@ -308,10 +308,10 @@
 			<m>r=0.03</m>, 3% annual rate
 		</p>
 		<p>
-			<m>n=12</m>, since we’re doing monthly payments, we’ll compound monthly
+			<m>n=12</m>, since we're doing monthly payments, we'll compound monthly
 		</p>
 		<p>
-			<m>t=5</m>, since we’re making monthly payments for 5 years
+			<m>t=5</m>, since we're making monthly payments for 5 years
 		</p>
 		<p>
 			<md>
@@ -362,7 +362,7 @@
 			<cd>=PMT(0.06/12, 12*30, 140000,0)</cd> which gives us $839.37.
 			</p>
 			<image source="images/financial_math/2_4/loan_formulas4.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		
@@ -373,7 +373,7 @@
 			<m>r=0.06</m>, 6% annual rate
 		</p>
 		<p>
-			<m>n=12</m>, since we’re paying monthly
+			<m>n=12</m>, since we're paying monthly
 		</p>
 		<p>
 			<m>t=30</m>, 30 years
@@ -382,7 +382,7 @@
 			<m>P=\$140,000</m>, the starting loan amount
 		</p>
 		<p>
-			In this case, we’re going to use the equation that is solved for <m>d</m>.
+			In this case, we're going to use the equation that is solved for <m>d</m>.
 		</p>
 		<p>
 			<md>
@@ -423,7 +423,7 @@
 		With loans, it is often desirable to determine what the remaining loan balance will be after some number of years. For example, if you purchase a home and plan to sell it in five years, you might want to know how much of the loan balance you will have paid off and how much you will have to pay from the sale.
 	</p>
 	<p>
-		To determine the remaining loan balance after some number of years, we first need to calculate the payment amount, if we don’t already know it. Remember that only a portion of your loan payments go towards the loan balance; a portion is going to go towards interest. For example, if your payments were $1,000 a month, after a year you will <em>not</em> have paid off $12,000 of the loan balance.
+		To determine the remaining loan balance after some number of years, we first need to calculate the payment amount, if we don't already know it. Remember that only a portion of your loan payments go towards the loan balance; a portion is going to go towards interest. For example, if your payments were $1,000 a month, after a year you will <em>not</em> have paid off $12,000 of the loan balance.
 	</p>
 	<p>
 		To determine the remaining loan balance, we can think <q>how much loan will these loan payments be able to pay off in the remaining time on the loan?</q>
@@ -437,7 +437,7 @@
 		</statement>
 		<solution>
 		<p>
-			To determine this, we need to think backwards. We are looking for the amount of the loan that can be paid off by $1,000 per month in the remaining 25 years. In other words, we’re looking for <m>P</m> when:
+			To determine this, we need to think backwards. We are looking for the amount of the loan that can be paid off by $1,000 per month in the remaining 25 years. In other words, we're looking for <m>P</m> when:
 		</p>
 		<p>
 			<m>d=\$1,000</m>, for the monthly loan payment
@@ -446,10 +446,10 @@
 			<m>r=0.06</m>, for 6% annual rate
 		</p>
 		<p>
-			<m>n=12</m>, since we’re doing monthly payments, we’ll compound monthly
+			<m>n=12</m>, since we're doing monthly payments, we'll compound monthly
 		</p>
 		<p>
-			<m>t=25</m>, since we’d be making monthly payments for 25 more years
+			<m>t=25</m>, since we'd be making monthly payments for 25 more years
 		</p> 
 		<p>
 			To use a spreadsheet for this problem, we use the <c>=PV</c> formula because we want to know what the present value would be at the time you want to sell in 5 years. We enter:
@@ -460,7 +460,7 @@
 			<cd>=PV(0.06/12, 12*25, 1000,0)</cd> which gives us $155,206.86.
 			</p>
 			<image source="images/financial_math/2_4/remaining_balance.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -482,7 +482,7 @@
 
 	<p>
 		Sometimes answering remaining balance questions requires two steps, both of which we have done in this section:
-		<ol label="1">
+		<ol marker="1">
 			<li>
 				<p>
 					Calculate the monthly payment on the loan
@@ -845,10 +845,10 @@
 <exercise><!--  #1 -->
 	<statement>
 	<p>
-		You can afford a $700 per month mortgage payment. You’ve found a 30-year loan at 5.5% APR.
+		You can afford a $700 per month mortgage payment. You've found a 30-year loan at 5.5% APR.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How big of a loan can you afford?
@@ -869,7 +869,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>P = \frac{700\left(1-\left(1+\frac{5.5\%}{12}\right)^{-12\times 30}\right)}{\frac{5.5\%}{12}}</m>, which gives <m>P \approx \$123,285.23</m>
@@ -896,10 +896,10 @@
 <exercise>
 	<statement>
 	<p>
-		Marie can afford a $250 per month car payment. She’s found a 5-year loan at 7% APR.
+		Marie can afford a $250 per month car payment. She's found a 5-year loan at 7% APR.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How expensive of a car can she afford?
@@ -920,7 +920,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>P = \frac{250\left(1-\left(1+\frac{7\%}{12}\right)^{-12 \times 5}\right)}{\frac{7\%}{12}}</m>, which gives <m>P \approx \$12,625.50</m>
@@ -985,7 +985,7 @@
 		You want to buy a $200,000 home. You plan to pay 10% as a down payment and take out a 30-year loan for the rest.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How much is the loan amount going to be?
@@ -1006,7 +1006,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The loan amount will be 90% of $200,000.00
@@ -1043,7 +1043,7 @@
 		Lynn bought a $300,000 house, paying 10% down, and financing the rest at 6.5% APR for 30 years.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find her monthly payments.
@@ -1064,7 +1064,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>d = \frac{270000\left(\frac{6.5\%}{12}\right)}{\left(1-\left(1+\frac{6.5\%}{12}\right)^{-12 \times 30}\right)}</m>, which gives <m>d \approx 1,706.58</m>
@@ -1176,7 +1176,7 @@
 		Suppose another mortgage lender offers you a fixed-rate 15-year mortgage at 2.95% APR. You have $20,000 saved as a down payment, and you can afford a maximum mortgage payment of $950 per month. You are interested in a certain house for sale, with firm selling price of $200,000.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the monthly payment for this house. Can you afford it, under the terms of this lender?
@@ -1192,7 +1192,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=PMT(2.95%/12,12*15,180000,0)</c> which gives $1,238.72.
@@ -1217,7 +1217,7 @@
 		An annuity firm pays 5% APR compounded yearly, and offers an investor the following: Deposit $100,000 with them today, and then starting one year from today, you will receive ten equal annual payments, with zero balance remaining afterward in the account. If an investor accepts their offer, then find the following:
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What will be the payment amount for each of the ten equal payments?
@@ -1233,7 +1233,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=PMT(5%,10,100000,0)</c> which gives $12,950.46.
@@ -1261,7 +1261,7 @@
 		For twelve full years, and into an account that pays 3.5% APR compounded quarterly: Yanhong will either pay $1500 at the end of each calendar quarter, or, deposit a single lump sum that will give the same future value amount.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					If Yanhong chooses the single lump sum option, then how much will Yanhong need to deposit?
@@ -1282,7 +1282,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=PV(3.5%/4,4*12,1500)</c> which gives $58,586.02.
@@ -1321,7 +1321,7 @@
 		Assume you take out a 30-year mortgage loan for $250,000 at a fixed 4.5% APR.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What will be the amount of your monthly payment?
@@ -1347,7 +1347,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=PMT(4.5%/12,12*30,250000)</c> which gives $1,266.71.

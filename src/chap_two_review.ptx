@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<section xml:id="chap_two_review">
+<exercises xml:id="chap_two_review">
 <title>Chapter 2 Review</title>
-
-<exercises>
-<title>Review Exercises</title>
-
-<exercisegroup>
 
 	<exercise>
 		<statement>
 		<p>
 			If you deposit $1,525 in an account at 5.6% APR for fourteen years, how much will you have in the account and how much interest did you earn after 14 years if: 
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The interest is compounded using simple interest.
@@ -37,7 +32,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>I=1525(0.056)(14)</m>
@@ -132,7 +127,7 @@
 		<statement>
 		<p>
 			The current inflation rate is 2.92%. If this continues for the next 10 years find the cost of the following items in the year 2029. Note: Inflation is Continuous Compound Interest.  
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Gas Average: $3.49
@@ -163,7 +158,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>A=3.49e^{0.0292*10}</m>. Or, <c>=3.49*EXP(0.0292*10)</c>. The cost of gas would be $4.67.
@@ -228,20 +223,12 @@
 			</p>
 		</solution>
 	</exercise>
-</exercisegroup>
-
-<exercisegroup>
-	<!-- <introduction>
-	<p>
-		Savings Plans
-	</p>
-	</introduction> -->
 
 	<exercise>
 		<statement>
 		<p>
 			For each find the Future Value, the total amount deposited, and the interest earned.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Regular Deposit $350, Compounded Monthly, 6.5% APR for 25 years
@@ -262,7 +249,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>A= \frac{350((1+\frac{0.065}{12})^{12*25}-1)}{\frac{0.065}{12}}</m>
@@ -300,14 +287,6 @@
 			</p>
 		</solution>
 	</exercise>
-</exercisegroup>
-
-<exercisegroup>
-	<!-- <introduction>
-	<p>
-		Loan Payments
-	</p>
-	</introduction> -->
 
 	<exercise>
 		<statement>
@@ -316,7 +295,7 @@
 			<ul>
 				<li>
 					<p>
-						House 1: John’s Landing Townhouse:  $299,900
+						House 1: John's Landing Townhouse:  $299,900
 					</p>
 				</li>
 				<li>
@@ -348,14 +327,6 @@
 			</p>
 		</solution>
 	</exercise>
-</exercisegroup>
-
-<exercisegroup>
-	<!-- <introduction>
-	<p>
-		Budgeting
-	</p>
-	</introduction> -->
 
 	<exercise>
 		<statement>
@@ -410,14 +381,6 @@
 			</p>
 		</solution>
 	</exercise>
-</exercisegroup>
-
-<exercisegroup>
-	<!-- <introduction>
-	<p>
-		Taxes
-	</p>
-	</introduction> -->
 
 	<exercise>
 		<statement>
@@ -448,16 +411,16 @@
 	<exercise>
 		<statement>
 		<p>
-			Amir’s made $43,000 in wages and $1000 in tips. He contributed $3,000 into his IRA account.
-			<ol label="a.">
+			Amir's made $43,000 in wages and $1000 in tips. He contributed $3,000 into his IRA account.
+			<ol marker="a.">
 				<li>
 					<p>
-						Find Amir’s Gross Income.
+						Find Amir's Gross Income.
 					</p>
 				</li>
 				<li>
 					<p>
-						Find Amir’s Adjusted Gross Income (AGI).
+						Find Amir's Adjusted Gross Income (AGI).
 					</p>
 				</li>
 			</ol>
@@ -465,15 +428,15 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
-						<m>43,000+1,000 = 44,000</m>. Amir’s gross income is $44,000.
+						<m>43,000+1,000 = 44,000</m>. Amir's gross income is $44,000.
 					</p>
 				</li>
 				<li>
 					<p>
-						<m>44,000-3,000=41000</m>. Amir’s adjusted gross income is $41,000.
+						<m>44,000-3,000=41000</m>. Amir's adjusted gross income is $41,000.
 					</p>
 				</li>
 			</ol>
@@ -485,10 +448,10 @@
 		<statement>
 		<p>
 			Amir has $9,540 he could take in itemized deductions. The standard deduction for a single filer is $12,000.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
-						Find Amir’s taxable income.
+						Find Amir's taxable income.
 					</p>
 				</li>
 				<li>
@@ -501,10 +464,10 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
-						<m>41,000-12,000= 29,000</m>. Amir’s taxable income is $29,000.
+						<m>41,000-12,000= 29,000</m>. Amir's taxable income is $29,000.
 					</p>
 				</li>
 				<li>
@@ -528,7 +491,7 @@
 		<statement>
 		<p>
 			Amir can take a $1200 education credit and has had $2700 withheld from his paychecks.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Determine the amount Amir will owe or be refunded.
@@ -539,7 +502,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>3289.5-1200-2700=-610.5</m>. Amir will be refunded $610.50.
@@ -549,8 +512,5 @@
 			</p>
 		</solution>
 	</exercise>
-</exercisegroup>
 
 </exercises>
-
-</section>

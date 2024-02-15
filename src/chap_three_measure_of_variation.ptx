@@ -82,7 +82,7 @@
 	</assemblage>
 
 	<p>
-		We will go through the whole process for calculating the standard deviation. Let’s say there is another section of quiz scores:
+		We will go through the whole process for calculating the standard deviation. Let's say there is another section of quiz scores:
 	</p>
 	<p>
 		Section D: 0, 5, 5, 5, 5, 5, 5, 5, 5, 10
@@ -409,7 +409,7 @@
 	</example>
 	
 	<p>
-		In addition to a spreadsheet, we will continue our use of GeoGebra. Let’s take a look at how to use GeoGeogebra to find the mean, median and standard deviation for the last example. We begin just like we did for making a histogram.
+		In addition to a spreadsheet, we will continue our use of GeoGebra. Let's take a look at how to use GeoGeogebra to find the mean, median and standard deviation for the last example. We begin just like we did for making a histogram.
 	</p>
 
 	<example>
@@ -418,7 +418,7 @@
 		</p>
 		<sidebyside width="40%">
 			<image source="images/statistics/3_4/stdev1.png">
-			<description>A screenshot of GeoGebra showing the icon for One Variable Analysis</description>
+			<shortdescription>A screenshot of GeoGebra showing the icon for One Variable Analysis</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -426,7 +426,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/stdev2.png">
-			<description>A screenshot of GeoGebra showing the histogram. The summation symbol to show summary statistics is on the right side.</description>
+			<shortdescription>A screenshot of GeoGebra showing the histogram. The summation symbol to show summary statistics is on the right side.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -438,7 +438,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/stdev3.png">
-			<description>A screenshot of GeoGebra showing the data, histogram and summary statistics.</description>
+			<shortdescription>A screenshot of GeoGebra showing the data, histogram and summary statistics.</shortdescription>
 			</image>
 		</sidebyside>
 	
@@ -498,7 +498,7 @@
 			<m>Q_{3}</m> is the median of the upper half of the data
 		</p>
 		<p>
-			If there is an odd number of data values, we don’t use the median in either half
+			If there is an odd number of data values, we don't use the median in either half
 		</p>
 	</assemblage>
 
@@ -536,7 +536,7 @@
 			</md>
 		</p>
 		<p>
-			This tells us the that the middle 50% of the women’s heights lie within an interval of 6 inches.
+			This tells us the that the middle 50% of the women's heights lie within an interval of 6 inches.
 		</p>
 		</solution>
 	</example>
@@ -571,7 +571,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/quartile.png">
-			<description>A screenshot of GeoGebra showing the data and the summary statistics.</description>
+			<shortdescription>A screenshot of GeoGebra showing the data and the summary statistics.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -609,7 +609,7 @@
 	<example>
 		<statement>
 		<p>
-			Let’s continue with the cost of textbook data from <xref ref="textbook_example_mean_median_sd"></xref>. Use GeoGebra to find the five-number summary for this sample and draw a boxplot by hand.
+			Let's continue with the cost of textbook data from <xref ref="textbook_example_mean_median_sd"></xref>. Use GeoGebra to find the five-number summary for this sample and draw a boxplot by hand.
 		</p>
 		<p>
 			$140 $160 $160 $165 $180 $220 $235 $240 $250
@@ -630,7 +630,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/five_num1.png">
-			<description>A screenshot of GeoGebra showing the data and the summary statistics.</description>
+			<shortdescription>A screenshot of GeoGebra showing the data and the summary statistics.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -663,7 +663,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/five_num2.png">
-			<description>A boxplot with a horizontal scale from $120 to $480 with a scale of $40.</description>
+			<shortdescription>A boxplot with a horizontal scale from $120 to $480 with a scale of $40.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -687,7 +687,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/five_num3.png">
-			<description>A screenshot of GeoGebra showint the data, summary statistics and the boxplot.</description>
+			<shortdescription>A screenshot of GeoGebra showint the data, summary statistics and the boxplot.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -720,7 +720,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/five_num4.png">
-			<description>A screenshot of GeoGebra showing the histogram and boxplot stacked.</description>
+			<shortdescription>A screenshot of GeoGebra showing the histogram and boxplot stacked.</shortdescription>
 			</image>
 		</sidebyside>
 	
@@ -735,7 +735,7 @@
 	</p>
 	<sidebyside width="50%">
 		<image source="images/statistics/3_4/five_num5.png">
-		<description>A screenshot of GeoGebra showing two boxplots for the same data stacked. The first one is the regular boxplot and show outliers is unchecked; the second one has 4 outliers on the right side and the box for show outliers is checked.</description>
+		<shortdescription>A screenshot of GeoGebra showing two boxplots for the same data stacked. The first one is the regular boxplot and show outliers is unchecked; the second one has 4 outliers on the right side and the box for show outliers is checked.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -774,7 +774,7 @@
 		<solution>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/compare_dist1.png">
-			<description>The boxplot for Store 1 shows a 5-number summary of 0.7, 1.8, 2.3, 2.9, 6.3 minutes. The boxplot for Store 2 shows a 5-number summary of 0.5, 1.1, 2.1, 5.7, 9.6 minutes.</description>
+			<shortdescription>The boxplot for Store 1 shows a 5-number summary of 0.7, 1.8, 2.3, 2.9, 6.3 minutes. The boxplot for Store 2 shows a 5-number summary of 0.5, 1.1, 2.1, 5.7, 9.6 minutes.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -792,13 +792,13 @@
 	<example>
 		<statement>
 		<p>
-			The boxplots below show the 5-number summaries of the birth weights, in kilograms, of infants with severe idiopathic respiratory distress syndrome (SIRDS)<fn>van Vliet, P.K. and Gupta, J.M. (1973) Sodium bicarbonate in idiopathic respiratory distress syndrome. Arch. Disease in Childhood, 48, 249–255. As quoted on <url href="http://openlearn.open.ac.uk/mod/oucontent/view.php?id=398296&amp;section=1.1.3">http://openlearn.open.ac.uk/mod/oucontent/view.php?id=398296&amp;section=1.1.3</url></fn>. The boxplots are separated to show the birth weights of infants who survived and those that did not. What can we conclude from this data?
+			The boxplots below show the 5-number summaries of the birth weights, in kilograms, of infants with severe idiopathic respiratory distress syndrome (SIRDS)<fn>van Vliet, P.K. and Gupta, J.M. (1973) Sodium bicarbonate in idiopathic respiratory distress syndrome. Arch. Disease in Childhood, 48, 249–255. As quoted on <url href="http://openlearn.open.ac.uk/mod/oucontent/view.php?id=398296&amp;section=1.1.3" visual="openlearn.open.ac.uk/mod/oucontent/view.php?id=398296&amp;section=1.1.3"/></fn>. The boxplots are separated to show the birth weights of infants who survived and those that did not. What can we conclude from this data?
 		</p>
 		</statement>
 		<solution>
 		<sidebyside width="50%">
 			<image source="images/statistics/3_4/compare_dist2.png">
-			<description>The boxplot for infants who survived shows a 5-number summary of approximately 1.2, 1.8, 2.2, 2.9, 3.7 kg. The boxplot for infants who died shows a 5-number summary of 1.1, 1.3, 1.5, 2.2, 2.8 kg.</description>
+			<shortdescription>The boxplot for infants who survived shows a 5-number summary of approximately 1.2, 1.8, 2.2, 2.9, 3.7 kg. The boxplot for infants who died shows a 5-number summary of 1.1, 1.3, 1.5, 2.2, 2.8 kg.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -811,7 +811,7 @@
 <subsection>
 	<title>Z-Scores</title>
 	<p>
-		Have you ever heard the saying that you can’t compare apples and oranges? It turns out that you can - provided we standardize their measures first! 
+		Have you ever heard the saying that you can't compare apples and oranges? It turns out that you can - provided we standardize their measures first! 
 	</p>
 	<p>
 		We will be using the standard score called a Z-score, which is a method commonly used with unimodal and symmetric distributions (called <alert>normal</alert> or <alert>nearly normal distributions</alert>). Z-scores may be used with any data, but if the distribution is skewed, then the distribution of Z-scores will also be skewed. 
@@ -854,7 +854,7 @@
 		</p>
 
 		<p>
-			By convention, Z-scores are rounded to two decimal places, so we see that the orange is 1.33 standard deviations below its mean and the apple is 1.17 standard deviation below its mean. The orange is therefore smaller relative to its distribution since its Z-score is less than the apple’s Z-score.
+			By convention, Z-scores are rounded to two decimal places, so we see that the orange is 1.33 standard deviations below its mean and the apple is 1.17 standard deviation below its mean. The orange is therefore smaller relative to its distribution since its Z-score is less than the apple's Z-score.
 		</p>
 		<p>
 			We can also see from the Z-scores that neither fruit has an unusually small diameter since each piece of fruit is less than 2 standard deviations from its mean.
@@ -873,7 +873,7 @@
 				Apple: <cd>=STANDARDIZE(4.2, 5.8, 1.2)</cd> and we get -1.33 standard deviations
 			</p>
 			<image source="images/statistics/3_4/z_score1.png">
-			<description>a screenshot of a spreadsheet showing the =STANDARDIZE formula.</description>
+			<shortdescription>a screenshot of a spreadsheet showing the =STANDARDIZE formula.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -882,14 +882,14 @@
 			Orange: <cd>=STANDARDIZE (3.5, 4.2, 0.6)</cd> and we get -1.17 standard deviations
 		</p>
 			<image source="images/statistics/3_4/z_score2.png">
-			<description>a screenshot of a spreadsheet showing the =STANDARDIZE formula.</description>
+			<shortdescription>a screenshot of a spreadsheet showing the =STANDARDIZE formula.</shortdescription>
 			</image>
 		</sidebyside>
 	</example>
 
 	<example>
 		<p>
-			The mean weight of men over the age of 20 is 195.7 pounds<fn>2016 CDC Report. <url href="https://www.cdc.gov/nchs/data/series/sr_03/sr03_039.pdf">https://www.cdc.gov/nchs/data/series/sr_03/sr03_039.pdf</url>. The study included all ethnicities but the report does not say whether transgendered men were included.</fn> with a standard deviation of 29.8 pounds. The mean weight of domestic cats is 8.6 pounds with a standard deviation of 1.2 pounds. (The standard deviation for men’s weights is estimated. The cat’s mean weight is based on ideal cat weight and the standard deviation is approximate).
+			The mean weight of men over the age of 20 is 195.7 pounds<fn>2016 CDC Report. <url href="https://www.cdc.gov/nchs/data/series/sr_03/sr03_039.pdf" visual="cdc.gov/nchs/data/series/sr_03/sr03_039.pdf"/>. The study included all ethnicities but the report does not say whether transgendered men were included.</fn> with a standard deviation of 29.8 pounds. The mean weight of domestic cats is 8.6 pounds with a standard deviation of 1.2 pounds. (The standard deviation for men's weights is estimated. The cat's mean weight is based on ideal cat weight and the standard deviation is approximate).
 		</p>
 		<p> 
 			At his peak, Andre the Giant, the 7-foot-4-inch French professional wrestler and actor, weighed 520 pounds. When Georgie the cat was at his peak he weighed 24 pounds. Who was more giant – Andre the Giant or Georgie the cat? 
@@ -916,7 +916,7 @@
 		</p>
 	</sidebyside>
 		<p>
-			Since both Z-scores are greater than 2 standard deviations, both weights are extremely unusual. However, since the Z-score for Georgie’s weight is larger, he is even more giant than Andre the Giant.
+			Since both Z-scores are greater than 2 standard deviations, both weights are extremely unusual. However, since the Z-score for Georgie's weight is larger, he is even more giant than Andre the Giant.
 		</p>
 	</example>
 </subsection>
@@ -933,7 +933,7 @@
 	<statement>
 	<p>
 		A group of diners were asked how much they would pay for a meal. Their responses were: $7.50, $25.00, $10.00, $10.00, $7.50, $8.25, $9.00, $5.00, $15.00, $8.00, $7.25, $7.50, $8.00, $7.00, $12.00.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Using your mean from <xref ref="diners_example"></xref>, find the standard deviation of this data. Explain what the mean and standard deviation tell you about how much the group of diners would pay for a meal.
@@ -959,7 +959,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In Excel:
@@ -1187,7 +1187,7 @@
 		The amount of commercials in an hour of television varies by channel. The total length (in minutes) of all commercials from 8 pm to 9 pm in for some selected broadcast and cable channels on a weekday evening were: 10, 12.75, 7, 9, 9.75, 6.5, 12.5, 12.5, 8.75, 17, 10.5, 2
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Using your mean from <xref ref="commercials_example"></xref>, find the standard deviation of this data. Explain what the mean and standard deviation tell you about how much the group of diners would pay for a meal.
@@ -1213,7 +1213,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In Excel:
@@ -1294,7 +1294,7 @@
 	<statement>
 	<p>
 		You recorded the time in seconds it took for 8 participants to solve a puzzle. The times were: 15.2, 18.8, 19.3, 19.7, 20.2, 21.8, 22.1, 29.4.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Using your mean from <xref ref="puzzle_example"></xref>, find the standard deviation of this data. Explain what the mean and standard deviation tell you about how much the group of diners would pay for a meal.
@@ -1320,7 +1320,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In Excel:
@@ -1403,7 +1403,7 @@
 		You weigh 9 Oreo cookies, and you find the weights (in grams) are: 3.49, 3.51, 3.51, 3.51, 3.52, 3.54, 3.55, 3.58, 3.61
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Using your mean from <xref ref="oreo_example"></xref>, find the standard deviation of this data. Explain what the mean and standard deviation tell you about the weights of these Oreo cookies.
@@ -1429,7 +1429,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In Excel:
@@ -1510,7 +1510,7 @@
 	<statement>
 	<p>
 		The following table shows the cost of purchasing a car at a local dealership. Some of the cars sold were new and some were used.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the standard deviation of this data. Explain what the mean and standard deviation tell you about how much the cars are selling for.
@@ -1576,7 +1576,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In GeoGebra:
@@ -1668,7 +1668,7 @@
 		As part of a study of email, a researcher counted the length of 34 emails. The lengths of the emails are shown below, rounded to the nearest thousand characters (so a length 0 means that the numbers of characters rounded to 0, not that the message was blank).
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Find the standard deviation of this data. Explain what the mean and standard deviation tell you about the length of the emails.
@@ -1762,7 +1762,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In GeoGebra:
@@ -1851,7 +1851,7 @@
 	<statement>
 	<p>
 		Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment. Suppose that a new cancer drug is currently under study. Of interest is the average length of time in months patients live once starting the treatment. Two researchers each follow a different set of 40 cancer patients throughout their treatment. The following data (in months) are collected.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the standard deviation of each group.
@@ -1883,7 +1883,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In GeoGebra:
@@ -2019,7 +2019,7 @@
 		Females: $1,600; $1,200; $20,000; $25,000; $670; $29,000; $44,000; $30,000; $5,800; $50,000
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Find the standard deviation of each group.
@@ -2045,7 +2045,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In GeoGebra:
@@ -2155,7 +2155,7 @@
 					</image>
 				</sidebyside>
 				<p>
-					All of the values for the males’ 5-number summary are larger than the corresponding values for the females’ 5-number summary. The maximum income for males is more than twice the maximum income for females. Males have a significantly greater amount of variation in incomes than females, as shown by the larger range, IQR and standard deviation for males compared to females.
+					All of the values for the males' 5-number summary are larger than the corresponding values for the females' 5-number summary. The maximum income for males is more than twice the maximum income for females. Males have a significantly greater amount of variation in incomes than females, as shown by the larger range, IQR and standard deviation for males compared to females.
 				</p>
 			</li>
 		</ol>
@@ -2167,7 +2167,7 @@
 	<statement>
 	<p>
 		An experiment compared the ability of three groups of participants to remember briefly-presented chess positions. The data are shown below. The numbers represent the average number of pieces correctly remembered from three chess positions.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the standard deviation of each group.
@@ -2257,7 +2257,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In GeoGebra:
@@ -2419,8 +2419,8 @@
 <exercise><!--  #10 -->
 	<statement>
 	<p>
-		There is evidence that smiling can attenuate judgments of possible wrongdoing. This phenomenon termed the <q>smile-leniency effect</q> was the focus of a study by Marianne LaFrance &amp; Marvin Hecht in 1995<fn>LaFrance, M., &amp; Hecht, M. A. (1995) Why smiles generate leniency. Personality and Social Psychology Bulletin, 21, 207-214. Adapted from <url href="http://www.onlinestatbook.com/">www.onlinestatbook.com</url>, by David M. Lane, et al, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.</fn>. The following data are measurements of how lenient the sentences were for three different types of smiles and one neutral control. The same subject was used for all of the conditions so that may affect the results. The second column is a continuation of the first column.
-		<ol label="a.">
+		There is evidence that smiling can attenuate judgments of possible wrongdoing. This phenomenon termed the <q>smile-leniency effect</q> was the focus of a study by Marianne LaFrance &amp; Marvin Hecht in 1995<fn>LaFrance, M., &amp; Hecht, M. A. (1995) Why smiles generate leniency. Personality and Social Psychology Bulletin, 21, 207-214. Adapted from <url href="http://www.onlinestatbook.com/" visual="onlinestatbook.com"/>, by David M. Lane, et al, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/" visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.</fn>. The following data are measurements of how lenient the sentences were for three different types of smiles and one neutral control. The same subject was used for all of the conditions so that may affect the results. The second column is a continuation of the first column.
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the standard deviation for each type of smile and the neutral control.
@@ -2660,7 +2660,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In GeoGebra:
@@ -2864,7 +2864,7 @@
 	<statement>
 	<p>
 		Make up two data sets with 5 numbers each that have:		
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The same mean but different standard deviations.	
@@ -2880,7 +2880,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					There are many possible answers for this question. The data sets <m>{10, 10, 10, 10, 10}</m> and <m>{9, 9, 10, 11, 11}</m> have the same mean (10) but different standard deviations (0 and 1, respectively).
@@ -2902,7 +2902,7 @@
 		Make up two data sets with 7 numbers that each have:
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				The same IQR but different medians.
@@ -2918,7 +2918,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					There are many possible answers for this question. The data sets <m>{1, 2, 3, 4, 5, 6, 7}</m> and <m>{11, 12, 13, 14, 15, 16, 17}</m> have the same IQR (4) but different medians (4 and 14, respectively)
@@ -2938,7 +2938,7 @@
 	<statement>
 	<p>
 		The side-by-side boxplots show salaries for actuaries and CPAs.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Estimate the 25th, 50th and 75th percentiles for CPA and actuary salaries.
@@ -2960,7 +2960,7 @@
 				</p>
 				<sidebyside width="50%">
 					<image source="images/statistics/3_4/exercise1.png">
-					<description>The boxplot for CPA salary shows a 5-number summary of 30, 40, 75, 90, 100 in thousand dollars. The boxplot for Actuary salary shows a 5-number summary of 40, 75, 90, 94, 110 in thousand dollars</description>
+					<shortdescription>The boxplot for CPA salary shows a 5-number summary of 30, 40, 75, 90, 100 in thousand dollars. The boxplot for Actuary salary shows a 5-number summary of 40, 75, 90, 94, 110 in thousand dollars</shortdescription>
 					</image>
 				</sidebyside>
 			</li>
@@ -2969,15 +2969,15 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
-					The 25th, 50th, and 75th percentiles are, respectively, the 1st quartile, median, and 3rd quartile for the data sets. Reading the boxplot for CPAs, the 25th, 50th, and 75th percentiles for CPAs’ salaries are, respectively, $40,000, $75,000, and $90,000. Reading the boxplot for actuaries, the 25th, 50th, and 75th percentiles for actuaries’ salaries are, respectively, $75,000, $90,000, and $94,000
+					The 25th, 50th, and 75th percentiles are, respectively, the 1st quartile, median, and 3rd quartile for the data sets. Reading the boxplot for CPAs, the 25th, 50th, and 75th percentiles for CPAs' salaries are, respectively, $40,000, $75,000, and $90,000. Reading the boxplot for actuaries, the 25th, 50th, and 75th percentiles for actuaries' salaries are, respectively, $75,000, $90,000, and $94,000
 				</p>
 			</li>
 			<li>
 				<p>
-					Deshawn’s salary (the median salary for an actuary) is $90,000; Kelsey’s salary (the first quartile salary) is also $75,000. So Deshawn makes more than Kelsey, by $15,000.
+					Deshawn's salary (the median salary for an actuary) is $90,000; Kelsey's salary (the first quartile salary) is also $75,000. So Deshawn makes more than Kelsey, by $15,000.
 				</p>
 			</li>
 			<li>
@@ -3002,11 +3002,11 @@
 	</p>
 	<sidebyside width="50%">
 		<image source="images/statistics/3_4/exercise2.png">
-		<description>The boxplot of weekly study time for seniors shows a 5-number summary of 4, 5.5, 6, 9, 14 hours. The boxplot of weekly study time for juniors shows a 5-number summary of 0, 1, 3, 4, 6 hours</description>
+		<shortdescription>The boxplot of weekly study time for seniors shows a 5-number summary of 4, 5.5, 6, 9, 14 hours. The boxplot of weekly study time for juniors shows a 5-number summary of 0, 1, 3, 4, 6 hours</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Estimate the 25th, 50th, and 75th percentiles for weekly study time for high school juniors and seniors.
@@ -3032,7 +3032,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The 25th, 50th, and 75th percentiles for weekly study times for the juniors are 1 hour, 3 hours, and 4 hours, respectively. The 25th, 50th, and 75th percentiles for weekly study times the seniors are 5.5 hours, 6 hours, and 9 hours.
@@ -3063,7 +3063,7 @@
 	<statement>
 	<p>
 		Suppose you buy a new car whose advertised gas mileage is 25 mpg (miles per gallon). After driving the car for several months, you find that you are getting only 21.4 mpg. You phone the manufacturer and learn that the standard deviation of gas mileage for cars of that model is 1.15 mpg.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the Z-score for the gas mileage of your car.
@@ -3079,7 +3079,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -3105,7 +3105,7 @@
 		According to a local marathon club, the mean finishing time for a marathon is 274 minutes, with a standard deviation of 63 minutes.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					If I can run a marathon with a finishing time of 170 minutes, find the Z-score for my marathon time.
@@ -3121,7 +3121,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -3131,7 +3131,7 @@
 					</md>
 				</p>
 				<p>
-					The marathon time’s <m>Z</m>-score is -1.65 standard deviations.
+					The marathon time's <m>Z</m>-score is -1.65 standard deviations.
 				</p>
 			</li>
 			<li>
@@ -3148,7 +3148,7 @@
 	<statement>
 	<p>
 		This data is a sample of the average number of hours per year that a driver is delayed by road congestion in 11 cities: 56, 53, 53, 50, 46, 45, 44, 43, 42, 40, 36
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the mean and the standard deviation, including units.
@@ -3164,7 +3164,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In GeoGebra:
@@ -3199,7 +3199,7 @@
 		In a survey of 12 companies recruiting for recent college graduates, they reported the following numbers of job applicants per job posting: 123, 123, 134, 127, 115, 122, 125, 101, 130, 143, 110, and 122.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the mean and standard deviation, including units.
@@ -3215,7 +3215,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In GeoGebra:

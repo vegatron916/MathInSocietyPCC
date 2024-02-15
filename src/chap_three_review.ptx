@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<section xml:id="chap_three_review">
+<exercises xml:id="chap_three_review">
 <title>Chapter 3 Review</title>
-
-<exercises>
-<title>Review Exercises</title>
 
 <exercise>
 	<statement>
@@ -33,7 +30,7 @@
 		</ul>
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Identify the population and state its size.
@@ -64,7 +61,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The population is PCC students and 73,000 is the sample size.
@@ -101,7 +98,7 @@
 		CNN conducted a survey of 500 American adults. 62% of those surveyed answered yes to the question, <q>Do you favor a law to ban the sale of assault weapons and semiautomatic rifles?</q> The reported margin of error was <m>\pm 4\%</m>.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What population is being studied?
@@ -137,7 +134,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The population being studied is American adults.
@@ -179,7 +176,7 @@
 		A survey of 265 PCC students found that 23%, plus or minus 4% prefer to study at the library.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What population is being studied?
@@ -215,7 +212,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The population being studied is PCC Students.
@@ -257,7 +254,7 @@
 		Identify the sampling method. Just the name will suffice.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Researchers select every 5th customer who walks into the store to take a survey.
@@ -283,7 +280,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Systematic
@@ -315,7 +312,7 @@
 		Identify the most relevant source of bias in each situation.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					An opinion poll is posted on Facebook and Twitter asking how you are most likely to vote for in the next election.
@@ -346,7 +343,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Voluntary Response Bias
@@ -383,7 +380,7 @@
 		Identify whether each situation describes an observational study or an experiment. If it is an experiment.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Subjects are asked to run a mile and record their time.
@@ -399,7 +396,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Observational
@@ -421,7 +418,7 @@
 		For the clinical trial of a migraine drug, subjects were randomly divided into two groups. The first received an inert pill, while the second received the test medicine. Patients were not aware of which group they were in. After one month, patients reported how many migraines they experienced.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Which is the treatment group?
@@ -447,7 +444,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The treatment group is the group receiving the test medicine for migraines.
@@ -476,10 +473,10 @@
 <exercise>
 	<statement>
 	<p>
-		In a recent study<fn><url href="https://clinicaltrials.gov/ct2/show/NCT04027075?map_cntry=US&amp;map_state=US%3AOR&amp;rank=1">https://clinicaltrials.gov/ct2/show/NCT04027075?map_cntry=US&amp;map_state=US%3AOR&amp;rank=1</url></fn>, 380 high risk adolescents involved in the juvenile justice system were recruited to test an app designed to increase mindfulness and reduce substance use. Participants were randomly and equally assigned to use the app (Rewire) or receive services as usual from the Department of Youth Services. Participants were assessed to determine a baseline for substance use at the beginning of the study, and were asked to complete follow up assessments after 1 and 3 months. Assessments consisted of online surveys asking about substance use, emotion regulation, family demographics, and mindfulness practices. Urine samples were collected at each interview to verify self-reported substance use.
+		In a recent study<fn><url href="https://clinicaltrials.gov/ct2/show/NCT04027075?map_cntry=US&amp;map_state=US%3AOR&amp;rank=1" visual="clinicaltrials.gov/ct2/show/NCT04027075?map_cntry=US&amp;map_state=US%3AOR&amp;rank=1"/></fn>, 380 high risk adolescents involved in the juvenile justice system were recruited to test an app designed to increase mindfulness and reduce substance use. Participants were randomly and equally assigned to use the app (Rewire) or receive services as usual from the Department of Youth Services. Participants were assessed to determine a baseline for substance use at the beginning of the study, and were asked to complete follow up assessments after 1 and 3 months. Assessments consisted of online surveys asking about substance use, emotion regulation, family demographics, and mindfulness practices. Urine samples were collected at each interview to verify self-reported substance use.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Describe the treatment group.
@@ -505,7 +502,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The treatment group is the group assigned to use the Rewire app.
@@ -574,7 +571,7 @@
 		</ul>
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the implied population?
@@ -615,7 +612,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The implied population is United States teenagers.
@@ -634,14 +631,14 @@
 			<li>
 				<sidebyside width="50%">
 				<image source="images/statistics/3_5/review_movie_solution1.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
 			<li>
 				<sidebyside width="50%">
 				<image source="images/statistics/3_5/review_movie_solution2.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
@@ -667,11 +664,11 @@
 	</p>
 	<sidebyside width="40%">
 	<image source="images/statistics/3_5/review_trimet.png">
-		<description>A bar graph with the following categories and percentages: recreation 45%, work 17%, personal business 8%, shopping 7%, school 6%, medical 3%, visit 3% and other 1%</description>
+		<shortdescription>A bar graph with the following categories and percentages: recreation 45%, work 17%, personal business 8%, shopping 7%, school 6%, medical 3%, visit 3% and other 1%</shortdescription>
 	</image>
 	</sidebyside>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How many people use TriMet for personal business?
@@ -687,7 +684,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					426 people use TriMet for personal business. <!-- <m>0.08 \times 5325 = 426</m> -->
@@ -712,7 +709,7 @@
 		5.25, 5.00, 4.25, 3.75, 5.00, 4.50, 3.95, 3.75, 5.75, 4.75, 3.25, 3.75, 4.75, 5.00, 8.95
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the mean and median. Round to two decimal places and include units.
@@ -753,7 +750,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The mean is $4.78. The median is $4.75.
@@ -780,7 +777,7 @@
 			<li>
 				<sidebyside width="35%">
 				<image source="images/statistics/3_5/review_five_num_summary.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
@@ -795,7 +792,7 @@
 			<li>
 				<sidebyside width="40%">
 				<image source="images/statistics/3_5/review_five_num_box.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
@@ -813,7 +810,7 @@
 		32, 71, 72, 73, 73, 73, 76, 77, 78, 78, 79, 86, 88, 88, 88, 94, 94, 99
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the mean of the data. Round to one decimal place if necessary.
@@ -869,7 +866,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The mean is about 78.9.
@@ -903,21 +900,21 @@
 			<li>
 				<sidebyside width="35%">
 				<image source="images/statistics/3_5/review_five_num_summary2.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
 			<li>
 				<sidebyside width="35%">
 				<image source="images/statistics/3_5/review_five_num_box2.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
 			<li>
 				<sidebyside width="50%">
 				<image source="images/statistics/3_5/review_boxplot_summary2.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
@@ -972,7 +969,7 @@
 	</tabular>
 	</sidebyside>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the mean and standard deviation of the data. Round to two decimal places and include units.
@@ -1003,7 +1000,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The mean is about $26,200 and the standard deviation is about $10,000.
@@ -1017,7 +1014,7 @@
 			<li>
 				<sidebyside width="35%">
 				<image source="images/statistics/3_5/review_five_num_summary3.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
@@ -1032,7 +1029,7 @@
 			<li>
 				<sidebyside width="40%">
 				<image source="images/statistics/3_5/review_five_num_box3.png">
-					<description></description>
+					<shortdescription></shortdescription>
 				</image>
 				</sidebyside>
 			</li>
@@ -1044,15 +1041,15 @@
 <exercise>
 	<statement>
 	<p>
-		The double box-and-whisker plot<fn><url href="https://brainly.com/question/11978942">Source: https://brainly.com/question/11978942</url></fn> shows the goals scored per game by two soccer teams during a 25 game season.
+		The double box-and-whisker plot<fn>Source: <url href="https://brainly.com/question/11978942" visual="brainly.com/question/11978942"></url></fn> shows the goals scored per game by two soccer teams during a 25 game season.
 	</p>
 	<sidebyside width="50%">
 	<image source="images/statistics/3_5/review_teama_teamb.png">
-		<description>The boxplot for Team A shows a 5-number summary of 0, 2, 4, 5, 8 goals. The boxplot for Team B shows a 5-number summary of 0, 6, 8, 9, 10 goals.</description>
+		<shortdescription>The boxplot for Team A shows a 5-number summary of 0, 2, 4, 5, 8 goals. The boxplot for Team B shows a 5-number summary of 0, 6, 8, 9, 10 goals.</shortdescription>
 	</image>
 	</sidebyside>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Estimate the 25th, 50th and 75th percentiles for Team A and Team B goals.
@@ -1083,7 +1080,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The 25th, 50th, and 75th percentile for Team A  goals are 2, 4, and 5, respectively.
@@ -1126,7 +1123,7 @@
 		Suppose you buy a new car whose advertised gas mileage is 35 mpg (miles per gallon). After driving the car for several months, you find that you are getting only 30.4 mpg. You phone the manufacturer and learn that the standard deviation for that model is 1.35 mpg.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the z-score for the gas mileage of your car.
@@ -1142,7 +1139,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<m>z=\frac{(30.4-35)}{1.35}=\frac{-4.6}{1.35} \approx -3.41</m>
@@ -1167,7 +1164,7 @@
 		66, 55, 53, 50, 36, 45, 34, 43, 52, 40, 76, 45, 63
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Find the mean and the standard deviation, including units.
@@ -1188,7 +1185,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The mean is approximately 50.6 minutes per week. The standard deviation approximately 12.2 minutes per week.
@@ -1211,4 +1208,3 @@
 
 </exercises>
 
-</section>

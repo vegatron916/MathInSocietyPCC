@@ -144,7 +144,7 @@
 		If you make your deposits every month, use monthly compounding, <m>n=12</m>, etc.
 	</p>
 	<p>
-		To see how both of these methods work, let’s look at an example.
+		To see how both of these methods work, let's look at an example.
 	</p>
 	<example>
 		<statement>
@@ -167,7 +167,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_3/savings_plan1.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -180,7 +180,7 @@
 			<m>r=0.06</m>, 6% annual rate
 		</p>
 		<p>
-			<m>n=12</m>, since we’re doing monthly deposits, we’ll compound monthly
+			<m>n=12</m>, since we're doing monthly deposits, we'll compound monthly
 		</p>
 		<p>
 			<m>t=20</m>, we want the amount after 20 years
@@ -227,7 +227,7 @@
 	</example>
 
 	<p>
-		Now here’s an example with an initial deposit and monthly deposits. We can do this with the spreadsheet formula.
+		Now here's an example with an initial deposit and monthly deposits. We can do this with the spreadsheet formula.
 	</p>
 	<example>
 		<statement>
@@ -250,7 +250,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_3/savings_plan2.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 	</solution>
@@ -260,7 +260,7 @@
 <subsection>
 	<title>Finding Payment Amounts Usings Spreadsheets and Formulas</title>
 	<p>
-		Another important thing we can calculate is how much we need to save in each period to have a specified amount in the future. Say you want to achieve a certain amount for retirement or for your kids’ college.
+		Another important thing we can calculate is how much we need to save in each period to have a specified amount in the future. Say you want to achieve a certain amount for retirement or for your kids' college.
 	</p>
 	<p>
 		The mathematical formula for this is the one solved for d, the payment amount, above. There is a new spreadsheet formula to calculate payments, =PMT, that we will introduce now.
@@ -325,7 +325,7 @@
 			</p>
 			</stack>
 			<image source="images/financial_math/2_3/finding_payments1.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		
@@ -336,7 +336,7 @@
 			<m>r=0.08</m>, 8% annual rate
 		</p>
 		<p>
-			<m>n=12</m>, since we’re depositing monthly
+			<m>n=12</m>, since we're depositing monthly
 		</p>
 		<p>
 			<m>t=30</m>, 30 years
@@ -387,7 +387,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_3/finding_payments2.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -401,7 +401,7 @@
 			<m>r=0.03</m>, 3% annual rate
 		</p>
 		<p>
-			<m>n=365</m>, since we’re doing daily deposits, we’ll compound daily
+			<m>n=365</m>, since we're doing daily deposits, we'll compound daily
 		</p>
 		<p>
 			<m>t=10</m>, we want the amount after 10 years
@@ -437,7 +437,7 @@
 <subsection>
 	<title>Comparing Lump Sum and Regular Savings Payments</title>
 	<p>
-		Now let’s compare two scenarios to do some multistep problems and get a sense for the value of compounding over time.
+		Now let's compare two scenarios to do some multistep problems and get a sense for the value of compounding over time.
 	</p>
 	<example>
 		<statement>
@@ -466,7 +466,7 @@
 		</p>
 			</stack>
 		<image source="images/financial_math/2_3/comparing_payments1.png">
-		<description>An image of the spreadsheet showing the formula used and the result.</description>
+		<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 		</image>
 		</sidebyside>
 
@@ -484,7 +484,7 @@
 			</p>
 			</stack>
 			<image source="images/financial_math/2_3/comparing_payments2.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -524,7 +524,7 @@
 		</p>
 			</stack>
 		<image source="images/financial_math/2_3/comparing_payments3.png">
-		<description>An image of the spreadsheet showing the formula used and the result.</description>
+		<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 		</image>
 		</sidebyside>
 
@@ -605,7 +605,7 @@
 		<m>P_{3}=(1.005)P_{2}+100=(1.005)(100(1.005)+100)+100=100(1.005)^{2}+100(1.005)+100</m>
 	</p>
 	<p>
-		Continuing this pattern, after m deposits, we’d have saved:
+		Continuing this pattern, after m deposits, we'd have saved:
 	</p>
 
 	<p>
@@ -613,11 +613,11 @@
 	</p>
 
 	<p>
-		In other words, after <m>m</m> months, the first deposit will have earned compound interest for <m>m-1</m> months. The second deposit will have earned interest for <m>m-2</m> months. Last month’s deposit would have earned only one month worth of interest. The most recent deposit will have earned no interest yet.
+		In other words, after <m>m</m> months, the first deposit will have earned compound interest for <m>m-1</m> months. The second deposit will have earned interest for <m>m-2</m> months. Last month's deposit would have earned only one month worth of interest. The most recent deposit will have earned no interest yet.
 	</p>
 
 	<p>
-		This equation leaves a lot to be desired, though – it doesn’t make calculating the ending balance any easier! To simplify things, multiply both sides of the equation by 1.005:
+		This equation leaves a lot to be desired, though – it doesn't make calculating the ending balance any easier! To simplify things, multiply both sides of the equation by 1.005:
 	</p>
 	<p>
 		<m>1.005P_{m}=1.005[100(1.005)^{m-1}+100(1.005)^{m-2}+...+100(1.005)+100]</m>
@@ -630,7 +630,7 @@
 		<m>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+100(1.005)^{2}+100(1.005)</m>
 	</p>
 	<p>
-		Now we’ll line this up with like terms from our original equation, and subtract each side
+		Now we'll line this up with like terms from our original equation, and subtract each side
 	</p>
 	<p>
 		<m>1.005P_{m}=100(1.005)^{m}+100(1.005)^{m-1}+...+ 100(1.005)</m>
@@ -717,7 +717,7 @@
 		<statement>
 		<p>
 			You set up a savings plan for retirement in 35 years. You will deposit $250 each month for 35 years. The account will earn an average of 6.5% APR compounded monthly.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How much will you have in your retirement plan in 35 years?
@@ -738,7 +738,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>\frac{250[(1+\frac{0.065}{12})^{12*35}-1]}{(\frac{0.065}{12})}</m>
@@ -769,7 +769,7 @@
 		<statement>
 		<p>
 			You set up a savings plan for retirement in 40 years. You will deposit $75 each week for 40 years.The account will earn an average of 8.5% APR compounded weekly.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How much will you have in your retirement plan in 40 years?
@@ -790,7 +790,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>\frac{75\left(\left(1+\frac{0.085}{52}\right)^{52*40}-1\right)}{\left(\frac{0.085}{52}\right)}</m>
@@ -821,7 +821,7 @@
 		<statement>
 		<p>
 			You set up a savings plan for retirement in 30 years. You will deposit $750 each quarter for 30 years. The account will earn an average of 7.75% APR compounded quarterly.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How much will you have in your retirement plan in 30 years?
@@ -842,7 +842,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>\frac{750\left(1+\frac{0.0775}{4})^{4*30}-1\right)}{\left(frac{0.0775}{4}\right)}</m>
@@ -873,7 +873,7 @@
 		<statement>
 		<p>
 			You set up a savings plan for retirement in 25 years. You will deposit $20 per day for 25 years. The account will earn an average of 2.35% APR compounded daily.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How much will you have in your retirement plan in 25 years?
@@ -894,7 +894,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>\frac{20\left(\left(1+\frac{0.0235}{365}\right)^{365*25}-1\right)}{\left(\frac{0.0235}{365}\right)}</m>
@@ -925,7 +925,7 @@
 		<statement>
 		<p>
 			Suppose you invest $130 a month for 5 years into an account earning 9% APR compounded monthly. After 5 years, you leave the money, without making additional deposits, in the account for another 25 years.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How much will you have in the end?
@@ -946,7 +946,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						In 5 years: <m>\frac{130\left(\left(1+\frac{0.09}{12}\right)^{12*5}-1\right}{\left(\frac{0.09}{12}\right)}</m>
@@ -983,7 +983,7 @@
 		<statement>
 		<p>
 			Suppose you invest $200 per month for 10 years into an account earning 5% APR compounded monthly. You then leave the money, without making additional deposits, in the account for another 20 years.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How much will you have after the first 10 years?
@@ -1009,7 +1009,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>\frac{200\left(\left(1+\frac{0.05}{12}\right)^{12*20}-1\right)}{\left(\frac{0.05}{12}\right)}</m>
@@ -1126,8 +1126,8 @@
 	<exercise>
 		<statement>
 		<p>
-			Jose’ inherits $55,000 and decides to put it in the bank for the next 25 years to save for his retirement. He will earn an average of 5.6% APR compounded monthly for the next 25 years. His partner deposits $375 a month in a separate savings plan that earns 5.6% APR compounded monthly for the next 25 years.
-			<ol label="a.">
+			Jose' inherits $55,000 and decides to put it in the bank for the next 25 years to save for his retirement. He will earn an average of 5.6% APR compounded monthly for the next 25 years. His partner deposits $375 a month in a separate savings plan that earns 5.6% APR compounded monthly for the next 25 years.
+			<ol marker="a.">
 				<li>
 					<p>
 						How much will each have at the end of 25 years?
@@ -1148,7 +1148,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Jose: <m>55000\left(1+\frac{0.056}{12}\right)^{12*25}</m>
@@ -1171,7 +1171,7 @@
 						Jose: <m>222310.85 – 55000</m>
 					</p>
 					<p>
-						Jose’s partner: <m>244447.68 – 375*12*25</m>
+						Jose's partner: <m>244447.68 – 375*12*25</m>
 					</p>
 					<p>
 						Jose will earn $167,310.85 and his partner will earn $131,947.68 in interest.
@@ -1182,10 +1182,10 @@
 						Jose: <m>167310.85/222310.85</m>
 					</p>
 					<p>
-						Jose’s partner: <m>131947.68/244447.68</m>
+						Jose's partner: <m>131947.68/244447.68</m>
 					</p>
 					<p>
-						Jose’s final balance will be about 75.3% interest and Jose’s partner’s final balance will be about 54.0% interest.	
+						Jose's final balance will be about 75.3% interest and Jose's partner's final balance will be about 54.0% interest.	
 					</p>
 				</li>
 			</ol>
@@ -1197,7 +1197,7 @@
 		<statement>
 		<p>
 			Akiko inherits $45,000 and decides to put it in the bank for the next 30 years to save for her retirement. She will earn an average of 7.8% APR compounded monthly for the next 30 years. Her spouse deposits $200 a month in a separate savings plan that earns 7.8% APR compounded monthly for the next 30 years.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How much will each have at the end of 30 years?
@@ -1218,7 +1218,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Akiko: <m>45000\left(1+\frac{0.078}{12}\right)^{12*30}</m>
@@ -1255,7 +1255,7 @@
 						Her spouse: <m>214243.83/286243.83</m>
 					</p>
 					<p>
-						Akiko’s final balance will be about 90.3% interest and her spouse’s final balance will be about 74.8% interest.
+						Akiko's final balance will be about 90.3% interest and her spouse's final balance will be about 74.8% interest.
 					</p>
 				</li>
 			</ol>
@@ -1267,7 +1267,7 @@
 		<statement>
 		<p>
 			Sylvin makes an initial deposit of $1000 into a savings account and then adds $100 each month for 10 years into an account pays 4.5% APR compounded monthly.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What will be her final balance?
@@ -1288,7 +1288,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>1000\left(1+\frac{0.045}{12}\right)^{12*10}+\frac{100\left(\left(1+\frac{0.045}{12}\right)^{12*10}-1\right)}{\frac{0.045}{12}}</m>
@@ -1319,7 +1319,7 @@
 		<statement>
 		<p>
 			Elena makes an initial deposit of $5000 into a savings account and then adds $1000 each year for 20 years into an account pays 2.35% APR compounded annually.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What will be her final balance?
@@ -1340,7 +1340,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>5000(1+0.0235)^{20}+\frac{1000\left(\left(1+0.0235\right)^{20}-1\right)}{0.0235}</m>
@@ -1349,7 +1349,7 @@
 						<c>=FV(0.0235,20,1000,5000)</c>
 					</p>
 					<p>
-						Elena’s final balance will be $33,119.05.
+						Elena's final balance will be $33,119.05.
 					</p>
 				</li>
 				<li>
@@ -1371,7 +1371,7 @@
 		<statement>
 		<p>
 			Vanessa just turned 40 years old. Her plan is to save $100 per month until retirement at age 65. Suppose she deposits that $100 each month into a savings account that earns 4% APR compounded monthly.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What will her balance be when she turns 65 years old?
@@ -1387,7 +1387,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>\frac{100\left(\left(1+\frac{0.04}{12}\right)^{12*25}-1\right)}{\frac{0.04}{12}}</m>
@@ -1419,7 +1419,7 @@
 		<statement>
 		<p>
 			Chris wants to start saving money for retirement. Suppose he deposits $1000 every year into a savings account that pays 5% APR compounded annually.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How much will Chris have saved in 20 years?
@@ -1435,7 +1435,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>\frac{1000\left((1+0.05)^{20}-1\right)}{0.05}</m>
@@ -1467,7 +1467,7 @@
 		<statement>
 		<p>
 			Fareshta and Ahmad want to save to help send their child to college. Their plan is to put aside $50 every week. Suppose they deposit that money into an account that pays 3.5% APR compounded weekly.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How much money will be in the account in 18 years? (assume 52 weeks in a year)
@@ -1475,7 +1475,7 @@
 				</li>
 				<li>
 					<p>
-						What minimum initial lump sum deposit would they need to make today to have the same balance in 18 years if they weren’t putting aside the $50 per week?
+						What minimum initial lump sum deposit would they need to make today to have the same balance in 18 years if they weren't putting aside the $50 per week?
 					</p>
 				</li>
 			</ol>
@@ -1483,7 +1483,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>\frac{50\left(\left(1+\frac{0.035}{52}\right)^{52*18}-1\right)}{\frac{0.035}{52}}</m>
@@ -1515,7 +1515,7 @@
 		<statement>
 		<p>
 			Elisa decides to cancel her cable TV and to deposit the $100 she will save each month into an account that pays 4.5% APR compounded monthly.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How much will she have in the account in 10 years?
@@ -1531,7 +1531,7 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						<m>\frac{100\left(\left(1+\frac{0.045}{12}\right)^{12*20}-1\right)}{\frac{0.045}{12}}</m>

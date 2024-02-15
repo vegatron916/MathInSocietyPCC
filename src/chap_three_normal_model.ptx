@@ -53,7 +53,7 @@
 	</p>
 	<sidebyside width="43%">
 		<image source="images/statistics/3_6/intro_pic.png">
-			<description>A histogram where the bars form a bell shape. A Normal curve is overlaid on the histogram.</description>
+			<shortdescription>A histogram where the bars form a bell shape. A Normal curve is overlaid on the histogram.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -82,7 +82,7 @@
 				</p>
 				<sidebyside width="43%">
 					<image source="images/statistics/3_6/mean_median_mode_pic.png">
-					<description>A normal curve with a line drawn in the middle to indicate the mean, median and mode. The drawing shows that 50% of the data values are below the line and 50% are above the line.</description>
+					<shortdescription>A normal curve with a line drawn in the middle to indicate the mean, median and mode. The drawing shows that 50% of the data values are below the line and 50% are above the line.</shortdescription>
 					</image>
 				</sidebyside>
 			</li>
@@ -99,7 +99,7 @@
 		</ul>
 	</p>
 	<p>
-		Now let's look at an example where we draw and label a Normal distribution given the mean and standard deviation<fn>All of the Normal drawings in this section were created with the online probability calculator at <url href="http://onlinestatbook.com/2/calculators/normal_dist.html">onlinestatbook.com/2/calculators/normal_dist.html</url> which is in the public domain.</fn>.
+		Now let's look at an example where we draw and label a Normal distribution given the mean and standard deviation<fn>All of the Normal drawings in this section were created with the online probability calculator at <url href="http://onlinestatbook.com/2/calculators/normal_dist.html" visual="onlinestatbook.com/2/calculators/normal_dist.html"/> which is in the public domain.</fn>.
 	</p>
 	<example xml:id="mean18_and_sd4">
 		<p>
@@ -107,7 +107,7 @@
 		</p>
 		<sidebyside width="42%">
 			<image source="images/statistics/3_6/mean18_sd4_pic2.png">
-			<description>A normal curve with the mean of 18 points labeled in the middle. To the right, 3 standard deviations are labeled 22, 26 and 30 points. To the left 3 standard deviations are labeled 14, 10 and 6 points.</description>
+			<shortdescription>A normal curve with the mean of 18 points labeled in the middle. To the right, 3 standard deviations are labeled 22, 26 and 30 points. To the left 3 standard deviations are labeled 14, 10 and 6 points.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -150,7 +150,7 @@
 		According to the Empirical rule, about 68% of all the data values fall within one standard deviation of the mean, or between 14 and 22 points.
 		</p>
 		<image source="images/statistics/3_6/68perc_pic.png">
-			<description>A graph of a normal curve that shows 68% of the data values shaded within one standard deviation of the mean, in this case between 14 and 22 points.</description>
+			<shortdescription>A graph of a normal curve that shows 68% of the data values shaded within one standard deviation of the mean, in this case between 14 and 22 points.</shortdescription>
 		</image>
 	</sidebyside>
 	
@@ -159,7 +159,7 @@
 		About 95% of all the data values fall within two standard deviation, or between 10 and 26 points.
 		</p>
 		<image source="images/statistics/3_6/95perc_pic.png">
-		<description>A graph of a normal curve that shows 95% of the data values shaded within two standard deviations of the mean, in this case between 10 and 26 points.</description>
+		<shortdescription>A graph of a normal curve that shows 95% of the data values shaded within two standard deviations of the mean, in this case between 10 and 26 points.</shortdescription>
 		</image>
 	</sidebyside>
 
@@ -168,7 +168,7 @@
 		About 99.7% of all the data values fall within three standard deviations, or between 6 and 30 points.
 		</p>
 		<image source="images/statistics/3_6/99perc_pic.png">
-		<description>A graph of a normal curve that show 99.7% of the data values shaded within 3 standard deviations of the mean, in this case between 6 and 30 points.</description>
+		<shortdescription>A graph of a normal curve that show 99.7% of the data values shaded within 3 standard deviations of the mean, in this case between 6 and 30 points.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -178,7 +178,7 @@
 		<statement>
 			<p>
 				The weights of black lab dogs are approximately normally distributed with a mean of 78 pounds and a standard deviation of 7 pounds.
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Draw and label a sketch of this distribution.
@@ -211,16 +211,14 @@
 		</statement>
 		<solution>
 			<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						We start by drawing the Normal curve and the horizontal axis, labeling 3 standard deviations on each side.
-						<sidebyside width="45%">
-							<image source="images/statistics/3_6/mean78_sd7_pic.png">
-							<description>A normal curve labeled with 57, 64, 71, 78, 85, 92 and 99 pounds. The title of the graph is weights of black lab dogs in points.</description>
-							</image>
-						</sidebyside>
 					</p>
+					<image width="45%" source="images/statistics/3_6/mean78_sd7_pic.png">
+						<shortdescription>A normal curve labeled with 57, 64, 71, 78, 85, 92 and 99 pounds. The title of the graph is weights of black lab dogs in points.</shortdescription>
+					</image>
 				</li>
 				<li>
 					<p>
@@ -256,7 +254,7 @@
 		</p>
 		<sidebyside width="45%">
 			<image source="images/statistics/3_6/mean18_sd4_pic.png">
-			<description>A normal curve labeled with 6, 10, 14, 18, 22, 26 and 30 points. The title is quiz scores in points. There is a line segment at each number listed to divide the curve into segments.</description>
+			<shortdescription>A normal curve labeled with 6, 10, 14, 18, 22, 26 and 30 points. The title is quiz scores in points. There is a line segment at each number listed to divide the curve into segments.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -290,7 +288,7 @@
 		</p>
 		<sidebyside width="60%">
 			<image source="images/statistics/3_6/emperical_rule_pic.png">
-			<description>The previous normal curve with the area of each segment filled in. From left to right the areas are 0.15%, 2.35%, 13.5%, 34%, 34%, 13.5%, 2.35%, 0.15%.</description>
+			<shortdescription>The previous normal curve with the area of each segment filled in. From left to right the areas are 0.15%, 2.35%, 13.5%, 34%, 34%, 13.5%, 2.35%, 0.15%.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -301,7 +299,7 @@
 			For the quiz score data that are approximately normally distributed with a mean of 18 points and a standard deviation 4 points, use the 68-95-99.7% rule to calculate the following probabilities:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What percentage of students earned scores between 22 and 30 points?
@@ -322,7 +320,7 @@
 
 		<p>
 			Solution
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Using the diagram above, we add the two segments between 22 and 30 to get <me>13.5\% +  2.35\% = 15.85\%</me>. 15.8% percent of students earned scores between 22 and 30 points on the quiz.
@@ -352,7 +350,7 @@
 			Continuing with the black lab dogs whose weights are approximately normally distributed with a mean of 78 pounds and a standard deviation 7 pounds, use the 68-95-99.7% rule to calculate the following probabilities:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What percentage of black labs weigh between 78 and 92 pounds?
@@ -372,33 +370,31 @@
 		</p>
 		</statement>
 		<solution>
-		<p>
-			First we need to draw this distribution and label three standard deviations on each side of the mean to determine where these weights fall. That will tell us which segments to add up. Here is our drawing of this distribution from before.
-			<sidebyside width="45%">
-				<image source="images/statistics/3_6/mean78_sd7_pic.png">
-				<description>The previous normal curve of weights of black lab dogs in pounds. The scale at the bottom is 57, 64, 71, 78, 85, 92, 99 pounds.</description>
-				</image>
-			</sidebyside>
-			<ol label="a.">
-				<li>
-					<p>
-						Using this Normal curve along with the diagram above we see we need to add the two segments between 78 and 92 pounds to get <me>34\% + 13.5\% = 47.5\%</me>. 47.5% percent of black labs weigh between 78 and 92 pounds.
-					</p>
-				</li>
-				<li>
-					<p>
-						We add all the segments below 71 pounds to get <me>13.5\% + 2.35\% + 0.15\% = 16\%</me>. 16% of black labs weigh below 71 pounds.
-
-					</p>
-				</li>
-				<li>
-					<p>
-						We add all the segments below 64 and above 78 pounds to get <me>0.15\% + 2.35\% + 34\% + 13.5\% + 2.35\% + 0.15\% = 52.5\%</me>. 52.5% of black labs weigh below 64 or above 78 pounds. Notice we could have done this in a faster way since 78 is the mean we know the percentage above the mean is 50%. We could have added <me>0.15\%+2.35\% + 50\%=52.5\%</me>.
-
-					</p>
-				</li>
-			</ol>
-		</p>
+			<p>
+				First we need to draw this distribution and label three standard deviations on each side of the mean to determine where these weights fall. That will tell us which segments to add up. Here is our drawing of this distribution from before.
+			</p>
+			<image width="45%" source="images/statistics/3_6/mean78_sd7_pic.png">
+				<shortdescription>The previous normal curve of weights of black lab dogs in pounds. The scale at the bottom is 57, 64, 71, 78, 85, 92, 99 pounds.</shortdescription>
+			</image>
+			<p>
+				<ol marker="a.">
+					<li>
+						<p>
+							Using this Normal curve along with the diagram above we see we need to add the two segments between 78 and 92 pounds to get <me>34\% + 13.5\% = 47.5\%</me>. 47.5% percent of black labs weigh between 78 and 92 pounds.
+						</p>
+					</li>
+					<li>
+						<p>
+							We add all the segments below 71 pounds to get <me>13.5\% + 2.35\% + 0.15\% = 16\%</me>. 16% of black labs weigh below 71 pounds.
+						</p>
+					</li>
+					<li>
+						<p>
+							We add all the segments below 64 and above 78 pounds to get <me>0.15\% + 2.35\% + 34\% + 13.5\% + 2.35\% + 0.15\% = 52.5\%</me>. 52.5% of black labs weigh below 64 or above 78 pounds. Notice we could have done this in a faster way since 78 is the mean we know the percentage above the mean is 50%. We could have added <me>0.15\%+2.35\% + 50\%=52.5\%</me>.
+						</p>
+					</li>
+				</ol>
+			</p>
 		</solution>
 	</example>
 </subsection>
@@ -410,10 +406,10 @@
 		</p>
 		<sidebyside widths="45% 45%">
 			<p>
-				To use Onlinestatbook.com, go to the <url href="http://onlinestatbook.com/2/calculators/normal_dist.html">OnlineStatbook Normal calculator</url> and enter the mean and standard deviation. Then select the option that matches the probability you want to find: Above, Below, Between or Outside and enter the probability you want to find. Then click on the Recalculate button.
+				To use Onlinestatbook.com, go to the <url href="http://onlinestatbook.com/2/calculators/normal_dist.html" visual="onlinestatbook.com/2/calculators/normal_dist.html">OnlineStatbook Normal calculator</url> and enter the mean and standard deviation. Then select the option that matches the probability you want to find: Above, Below, Between or Outside and enter the probability you want to find. Then click on the Recalculate button.
 			</p>
 			<image source="images/statistics/3_6/onlinestatbook_general.png">
-			<description>A screenshot of the onlinestatbook.com normal probability calculator. It shows a normal curve, an input box for the mean and median, and a choice to find above, below, between or outside.</description>
+			<shortdescription>A screenshot of the onlinestatbook.com normal probability calculator. It shows a normal curve, an input box for the mean and median, and a choice to find above, below, between or outside.</shortdescription>
 			</image>
 		</sidebyside>
 		
@@ -456,7 +452,7 @@
 			For the quiz score data that are approximately normally distributed with a mean of 18 points and a standard deviation 4 points, use technology to calculate the following probabilities:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						What percentage of students earned a score below 12 points?
@@ -482,7 +478,7 @@
 
 		<p>
 			Solution
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside widths="40% 54%">
 					<stack>
@@ -492,9 +488,9 @@
 						<p>
 							To use a spreadsheet, we enter <c>=NORM.DIST(12, 18, 4, 1)</c>. The last value is always a 1 to indicate that we want a cumulative probability or area. This also gives us a result of <m>0.0668</m> or <m>6.68\%</m>.
 						</p>
-					</stack>>
+					</stack>
 					<image source="images/statistics/3_6/quiz_ex_a.png">
-					<description>A screenshot of onlinestatbook showing the inputs and output described above.</description>
+					<shortdescription>A screenshot of onlinestatbook showing the inputs and output described above.</shortdescription>
 					</image>
 					</sidebyside>
 				</li>
@@ -507,9 +503,9 @@
 						<p>
 							To use a spreadsheet, NORM.DIST gives us the area to the left so if we want the area to the right we need to find the complement or subtract from 1. We enter <c>=1-NORM.DIST(27, 18, 4, 1)</c>. This also gives us a result of <m>0.0122</m> or <m>1.22\%</m>.
 						</p>
-						</stack>>
+						</stack>
 					<image source="images/statistics/3_6/quiz_ex_b.png">
-					<description>A screenshot of onlinestatbook showing the inputs and output described above.</description>
+					<shortdescription>A screenshot of onlinestatbook showing the inputs and output described above.</shortdescription>
 					</image>
 					</sidebyside>
 				</li>
@@ -519,7 +515,7 @@
 						To use OnlineStatbook, we we will keep our mean of 18 points and standard deviation of 4 points. Then we select Between and enter 21 and 25. This gives us a result of <m>0.1866</m> as shown in the image or <m>18.66\%</m>.
 					</p>
 					<image source="images/statistics/3_6/quiz_ex_c.png">
-					<description>A screenshot of onlinestatbook showing the inputs and output described above.</description>
+					<shortdescription>A screenshot of onlinestatbook showing the inputs and output described above.</shortdescription>
 					</image>
 					</sidebyside>
 					<p>
@@ -532,7 +528,7 @@
 						To use OnlineStatbook, we we will keep our mean of 18 points and standard deviation of 4 points. Then we select Outside and enter 11 and 23. This gives us a result of <m>0.1457</m> as shown in the image or <m>14.57\%</m>.
 					</p>
 					<image source="images/statistics/3_6/quiz_ex_d.png">
-					<description>A screenshot of onlinestatbook showing the inputs and output described above.</description>
+					<shortdescription>A screenshot of onlinestatbook showing the inputs and output described above.</shortdescription>
 					</image>
 					</sidebyside>
 					<p>
@@ -551,7 +547,7 @@
 			Continuing with the black lab dogs whose weights are approximately normally distributed with a mean of 78 pounds and a standard deviation 7 pounds, use technology to calculate the following probabilities:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The probability that a randomly chosen black lab weighs at least 95 pounds.
@@ -577,7 +573,7 @@
 		</statement>
 		<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						Using OnlineStatbook and/or <c>=1-NORM.DIST(95, 78, 7, 1)</c> we get <m>P(X\geq95)=0.0076</m> or <m>0.76\%</m>.
@@ -624,7 +620,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_6/empty_emperical_pic.png">
-		<description>A normal curve labeled with -3, -2, -1, 0, 1, 2, 3 standard deviations. The title is Z-scores. There is a line at each number dividing the curve into segments.</description>
+		<shortdescription>A normal curve labeled with -3, -2, -1, 0, 1, 2, 3 standard deviations. The title is Z-scores. There is a line at each number dividing the curve into segments.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -632,7 +628,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_6/full_emperical_pic1.png">
-		<description>The previous normal curve with the area of each segment filled in. From left to right the areas are 0.15%, 2.35%, 13.5%, 34%, 34%, 13.5%, 2.35%, 0.15%.</description>
+		<shortdescription>The previous normal curve with the area of each segment filled in. From left to right the areas are 0.15%, 2.35%, 13.5%, 34%, 34%, 13.5%, 2.35%, 0.15%.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -640,7 +636,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/statistics/3_6/full_emperical_pic2.png">
-		<description>The previous normal curve with the area of each segment filled in in decimal form. From left to right the areas are 0.0015, 0.0235, 0.135, 0.34, 0.34, 0.135, 0.0235, 0.0015.</description>
+		<shortdescription>The previous normal curve with the area of each segment filled in in decimal form. From left to right the areas are 0.0015, 0.0235, 0.135, 0.34, 0.34, 0.135, 0.0235, 0.0015.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -658,7 +654,9 @@
 
 	<example>
 		<statement>
-			Now you can calculate the Z-score for a student who scored 15 on the math quiz.
+			<p>
+				Now you can calculate the Z-score for a student who scored 15 on the math quiz.
+			</p>
 		</statement>
 		<solution>
 		<p>
@@ -686,7 +684,7 @@
 	
 	<sidebyside width="40%">
 		<image source="images/statistics/3_6/95perc_interval_pic.png">
-		<description>A normal curve showing the middle 95% of the area shaded, which is 1.96 standard deviations on each side of the mean of 0.</description>
+		<shortdescription>A normal curve showing the middle 95% of the area shaded, which is 1.96 standard deviations on each side of the mean of 0.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -918,7 +916,7 @@
 	<statement>
 		<p>
 			Suppose a Normal distribution has a mean of 6 inches and a standard deviation of 1.5 inches.
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -944,13 +942,10 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_15a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_15a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -976,7 +971,7 @@
 	<statement>
 	<p>
 		Suppose a Normal distribution has a mean of 45 cm and a standard deviation of 10 cm.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1002,13 +997,10 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_16a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_16a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1034,7 +1026,7 @@
 	<statement>
 	<p>
 		Suppose a Normal distribution has a mean of $10 and a standard deviation of $2.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1060,13 +1052,10 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_17a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_17a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1092,7 +1081,7 @@
 	<statement>
 	<p>
 		Suppose the variable <m>X</m> is normally distributed with a mean of 15 miles and a standard deviation of 3 miles.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1118,13 +1107,10 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_18a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_18a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1159,7 +1145,7 @@
 	<statement>
 	<p>
 		Suppose a Normal distribution has a mean of 15.5 ounces and a standard deviation of 4.2 ounces.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1185,13 +1171,10 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_19a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_19a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1217,7 +1200,7 @@
 	<statement>
 	<p>
 		Suppose a Normal distribution has a mean of 26.1 grams and a standard deviation of 6.5 grams.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1243,13 +1226,10 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_20a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_20a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1275,7 +1255,7 @@
 	<statement>
 	<p>
 		Suppose the variable <m>X</m> is normally distributed with a mean of 85 km and a standard deviation of 7 km.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1301,13 +1281,10 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_21a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_21a.png"></image>
 			</li>
 			<li>
 				<p>
@@ -1333,7 +1310,7 @@
 	<statement>
 	<p>
 		Suppose the variable <m>X</m> is normally distributed with a mean of $7 and a standard deviation of $1.30.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Draw and label the Normal distribution graph.
@@ -1359,13 +1336,10 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
-				<p>Here is the graph:
-					<sidebyside width="40%">
-						<image source="images/statistics/3_6/exercise_22a.png"></image>
-					</sidebyside>
-				</p>
+				<p>Here is the graph:</p>
+				<image width="40%" source="images/statistics/3_6/exercise_22a.png"></image>
 			</li>
 			<li>
 				<p>

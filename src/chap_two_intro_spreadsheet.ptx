@@ -35,7 +35,7 @@
 	</p>
 		<sidebyside width="40%">
 		<image source="images/financial_math/2_1/intro1.png">
-		<description>A blank spreadsheet with the cell A1 highlighted</description>
+		<shortdescription>A blank spreadsheet with the cell A1 highlighted</shortdescription>
 		</image>
 		</sidebyside>
 	<p>
@@ -43,7 +43,7 @@
 	</p>
 		<sidebyside width="40%">
 		<image source="images/financial_math/2_1/intro2.png">
-		<description>A blank spreadsheet showing the sheet tabs at the bottom of the screen.</description>
+		<shortdescription>A blank spreadsheet showing the sheet tabs at the bottom of the screen.</shortdescription>
 		</image>
 		</sidebyside>
 </introduction>
@@ -86,12 +86,12 @@
 				</ol>
 			</p>
 			<image source="images/financial_math/2_1/basic_calc.png">
-			<description>A spreadsheet showing the examples entered in the spreadsheet. cell A1 has =3+4, cell A2 has =100-76, cell A3 has =4*18, cell A4 has =0.05/12 and cell A5 has =5^25.</description>
+			<shortdescription>A spreadsheet showing the examples entered in the spreadsheet. cell A1 has =3+4, cell A2 has =100-76, cell A3 has =4*18, cell A4 has =0.05/12 and cell A5 has =5^25.</shortdescription>
 			</image>
 		</sidebyside>
 	</example>
 	<p>
-		Note that the asterisk (*) is used for multiplication. Spreadsheets don’t recognize parentheses as indicators of multiplication like calculators do, so even if you have parentheses for the order of operations, the asterisk is also needed. 
+		Note that the asterisk (*) is used for multiplication. Spreadsheets don't recognize parentheses as indicators of multiplication like calculators do, so even if you have parentheses for the order of operations, the asterisk is also needed. 
 	</p>
 	<p>
 		You can make more complicated mathematical expressions using parentheses and other operations. To <alert>edit a cell</alert> click on the editing box at the top, or double click on the cell to edit it directly. 
@@ -122,12 +122,12 @@
 			One of the powerful things about spreadsheets is using a cell reference, such as C5 in a calculation. When you use a <alert>cell reference</alert>, the values will automatically update if any of the referenced values change.
 		</p>
 		<p>
-			Let’s make a spreadsheet for the percentage tip example above. We calculated an 18% tip on a bill of $35.75. We might want to tip 18% in general, but our bill will change values. We labeled the first column Bill Amount and the second column Tip. The amount of $35.75 is entered in cell A2. Then when we write our formula in B2, we want to calculate 18% of A2. That way if the number in A2 changes, our tip will automatically update.
+			Let's make a spreadsheet for the percentage tip example above. We calculated an 18% tip on a bill of $35.75. We might want to tip 18% in general, but our bill will change values. We labeled the first column Bill Amount and the second column Tip. The amount of $35.75 is entered in cell A2. Then when we write our formula in B2, we want to calculate 18% of A2. That way if the number in A2 changes, our tip will automatically update.
 		</p>
 
 	<sidebyside width="50%">
 		<image source="images/financial_math/2_1/cell_ref1.png">
-		<description>A spreadsheet showing a formula with a cell reference, =0.18*A2</description>
+		<shortdescription>A spreadsheet showing a formula with a cell reference, =0.18*A2</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -136,7 +136,7 @@
 
 	<sidebyside width="50%">
 		<image source="images/financial_math/2_1/cell_ref2.png">
-		<description>The same spreadsheet showing when the input in A1 is changed to $45, the answer to the formula changes to $8.10.</description>
+		<shortdescription>The same spreadsheet showing when the input in A1 is changed to $45, the answer to the formula changes to $8.10.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -155,16 +155,16 @@
 <subsection>
 	<title>Fill-Down Feature</title>
 	<p>
-		The <alert>fill-down feature</alert> is very useful for making tables. This allows us to copy values or formulas to save time. Let’s make a tipping reference table with values from $10, to$100, in increments of $10. First, we will enter two values in column A to establish the pattern. Then select those two cells and you will see a small square in the lower right corner. Drag that square down until you get to $100.
+		The <alert>fill-down feature</alert> is very useful for making tables. This allows us to copy values or formulas to save time. Let's make a tipping reference table with values from $10, to$100, in increments of $10. First, we will enter two values in column A to establish the pattern. Then select those two cells and you will see a small square in the lower right corner. Drag that square down until you get to $100.
 	</p>
 	<sidebyside width="45%">
 		<image source="images/financial_math/2_1/drag_down1.png">
-		<description>A spreadsheet showing the fill-down feature; cells A2 and  A3 are highligted for the pattern and there is a down arrow by the small square to drag down.</description>
+		<shortdescription>A spreadsheet showing the fill-down feature; cells A2 and  A3 are highligted for the pattern and there is a down arrow by the small square to drag down.</shortdescription>
 		</image>
 	</sidebyside>
 	<sidebyside width="45%">
 		<image source="images/financial_math/2_1/drag_down2.png">
-		<description>This spreadsheet shows the completed bill amount column from $10 to $100 and shows the fill-down feature for the formula; cell B2 has the equation =0.18*A2 and there is a down arrow by the small square to drag down.</description>
+		<shortdescription>This spreadsheet shows the completed bill amount column from $10 to $100 and shows the fill-down feature for the formula; cell B2 has the equation =0.18*A2 and there is a down arrow by the small square to drag down.</shortdescription>
 		</image>
 	</sidebyside>
 
@@ -176,7 +176,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/financial_math/2_1/drag_down3.png">
-		<description>This spreadsheet shows the result of filling down the formula. The cell reference changes for each new row.</description>
+		<shortdescription>This spreadsheet shows the result of filling down the formula. The cell reference changes for each new row.</shortdescription>
 		</image>
 	</sidebyside>
 	<p>
@@ -184,7 +184,7 @@
 	</p>
 	<sidebyside width="40%">
 		<image source="images/financial_math/2_1/drag_down4.png">
-		<description>This spreadsheet shows the calculated values for tips from $10-100.</description>
+		<shortdescription>This spreadsheet shows the calculated values for tips from $10-100.</shortdescription>
 		</image>
 	</sidebyside>
 </subsection>
@@ -362,7 +362,7 @@
 		</p>
 		<sidebyside width="25%">
 			<image source="images/financial_math/2_1/solution_table_1.png">
-			<description>A portion of a spreadsheet is shown which includes cells A1 through B25, and with a title heading of Table 1. Cell A1 shows $5.00, cell A2 shows $10.00, and so on.  The pattern shows that each additional cell under A1 is equal to the cell above it, plus $5.00.  This pattern continues down to cell A25, which shows $125.00. Cell B1 shows $0.78, which is 15% of the $5.00 amount shown in cell A1. Cell B2 shows $1.55, which is 15% of the $10.00 amount shown in cell A2. This pattern continues until we reach cell B25, which shows $19.38, and which is 15% of the $125.00 amount shown in cell A25.</description>
+			<shortdescription>A portion of a spreadsheet is shown which includes cells A1 through B25, and with a title heading of Table 1. Cell A1 shows $5.00, cell A2 shows $10.00, and so on.  The pattern shows that each additional cell under A1 is equal to the cell above it, plus $5.00.  This pattern continues down to cell A25, which shows $125.00. Cell B1 shows $0.78, which is 15% of the $5.00 amount shown in cell A1. Cell B2 shows $1.55, which is 15% of the $10.00 amount shown in cell A2. This pattern continues until we reach cell B25, which shows $19.38, and which is 15% of the $125.00 amount shown in cell A25.</shortdescription>
 			</image>
 		</sidebyside>
 	</solution>
@@ -374,7 +374,7 @@
 		Imagine a certain savings account started out with a balance of $5250.00 on day-one, and today has a current balance of $5780.23
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Exactly how much more money does the account have today, compared with day-one?
@@ -392,7 +392,7 @@
 			</li>
 			<li>
 				<p>
-					If the bank balance today had instead grown by 15.5% since day-one, then what would be the exact amount of today’s balance?
+					If the bank balance today had instead grown by 15.5% since day-one, then what would be the exact amount of today's balance?
 				</p>
 			</li>
 		</ol>
@@ -400,7 +400,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=5780.23-5250</c> which gives $530.23
@@ -429,10 +429,10 @@
 <exercise>
 	<statement>
 	<p>
-		Imagine that at the start of a certain month, you will make an opening deposit of $500 into a savings account, and you will then leave the account alone (meaning you will make no further deposits or withdrawals). Also, for this account: Every month after the opening deposit, the amount in the account will grow to be 101% of its previous month’s balance.
+		Imagine that at the start of a certain month, you will make an opening deposit of $500 into a savings account, and you will then leave the account alone (meaning you will make no further deposits or withdrawals). Also, for this account: Every month after the opening deposit, the amount in the account will grow to be 101% of its previous month's balance.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Use a spreadsheet to enter 500 in cell A1. Using a formula and a cell-reference: Compute in cell A2, the amount in the account after one month has passed. Then using the fill down feature, continue the pattern for another eleven full months (you should end at cell A13). Format all the cells to show dollar signs. What is the amount in the account after one year?
@@ -463,7 +463,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					See the table at the bottom for part a and part b.
@@ -499,7 +499,7 @@
 		</p>
 		<sidebyside width="25%">
 			<image source="images/financial_math/2_1/solution_table_2.png">
-			<description>A portion of a spreadsheet is shown covering cells A1 through A25, and with a title heading of Table 2. Cell A1 shows $500.00. Cell A2 shows $505.00, which is 101% of cell A1. Cell A3 shows $510.05, which is 101% of cell A2. This pattern continues until we reach cell A25, which shows $634.87, and which is 101% of cell A24.</description>
+			<shortdescription>A portion of a spreadsheet is shown covering cells A1 through A25, and with a title heading of Table 2. Cell A1 shows $500.00. Cell A2 shows $505.00, which is 101% of cell A1. Cell A3 shows $510.05, which is 101% of cell A2. This pattern continues until we reach cell A25, which shows $634.87, and which is 101% of cell A24.</shortdescription>
 			</image>
 		</sidebyside>
 	</solution>
@@ -508,10 +508,10 @@
 <exercise><!--  #13 -->
 	<statement>
 	<p>
-		Imagine that at the start of a certain year, you will deposit $1000.00 into a savings account, and then you will leave the account alone. Each year after the opening deposit, the amount in the account will grow to be 103% of its previous year’s balance.
+		Imagine that at the start of a certain year, you will deposit $1000.00 into a savings account, and then you will leave the account alone. Each year after the opening deposit, the amount in the account will grow to be 103% of its previous year's balance.
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					After two years, the account balance will have experienced two growth amounts of 103%. You can find this account balance amount here, with the spreadsheet computation <c>= 1000 * (103%) * (103%)</c>. Perform this computation in a spreadsheet and write the balance that you find.
@@ -542,7 +542,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=1000*103%*103%</c> which gives $1060.90
@@ -578,8 +578,8 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/financial_math/2_1/solution_table_3.png">
-			<description>A portion of a spreadsheet is shown, which includes cells A1 through E32, and with a title heading of Table 3. Cell A1 shows a column title of Year, and cells A2 through A32 contain values of 0 through 30, respectively. Cells D1 through D32 are a copy of cells A1 through A32. Cell B1 shows a column title of Balance. Cell B2 shows $1,000.00, which corresponds to Year 0 displaying in adjacent cell A1. Cell B3 shows $1,030.00, which is 103% of the $1,000 shown in cell B2. Cell B4 shows $1,060.90, which is 103% of the $1,030.00 shown in cell B3. This pattern continues until we get to cell B32, which shows $2,427.26, and which is 103% of the $2,356.57 amount shown in cell B31. Cell E1 shows a column title of Balance. Cell B2 shows $5,000.00, which corresponds to Year 0 displaying in adjacent cell D1. Cell E3 shows $5,150.00, which is 103% of the $5,000 shown in cell E2. Cell E4 shows $5,304.50, which is 103% of the $5,150.00 shown in cell E3. This pattern continues until we get to cell E32, which shows $12,136.31, and which is 103% of the $11,782.83 amount shown in cell E31.
-			</description>
+			<shortdescription>A portion of a spreadsheet is shown, which includes cells A1 through E32, and with a title heading of Table 3. Cell A1 shows a column title of Year, and cells A2 through A32 contain values of 0 through 30, respectively. Cells D1 through D32 are a copy of cells A1 through A32. Cell B1 shows a column title of Balance. Cell B2 shows $1,000.00, which corresponds to Year 0 displaying in adjacent cell A1. Cell B3 shows $1,030.00, which is 103% of the $1,000 shown in cell B2. Cell B4 shows $1,060.90, which is 103% of the $1,030.00 shown in cell B3. This pattern continues until we get to cell B32, which shows $2,427.26, and which is 103% of the $2,356.57 amount shown in cell B31. Cell E1 shows a column title of Balance. Cell B2 shows $5,000.00, which corresponds to Year 0 displaying in adjacent cell D1. Cell E3 shows $5,150.00, which is 103% of the $5,000 shown in cell E2. Cell E4 shows $5,304.50, which is 103% of the $5,150.00 shown in cell E3. This pattern continues until we get to cell E32, which shows $12,136.31, and which is 103% of the $11,782.83 amount shown in cell E31.
+			</shortdescription>
 			</image>
 		</sidebyside>
 	</solution>

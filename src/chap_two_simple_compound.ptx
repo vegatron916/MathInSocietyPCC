@@ -280,7 +280,7 @@
 			<cd>=1000+1000*(0.04/2)*(4*2)</cd>
 		</p>
 		<p>
-			which also gives $1,160. The future value of the bond is $1,160. Remember that spreadsheets don’t interpret parentheses as multiplication. We need the asterisks as well as the parentheses.
+			which also gives $1,160. The future value of the bond is $1,160. Remember that spreadsheets don't interpret parentheses as multiplication. We need the asterisks as well as the parentheses.
 		</p>
 	</solution>
 	</example>
@@ -541,7 +541,7 @@
 		We will use the payment amount in a future section, for now that will be 0. There is also an optional input at the end to specify making payments at the beginning or end of the period, but we will not use it in this book.
 	</p>
 	<p>
-		Now let’s look at an example and calculate the compound interest using the spreadsheet and the mathematical formula.
+		Now let's look at an example and calculate the compound interest using the spreadsheet and the mathematical formula.
 	</p>
 	<example>
 		<statement>
@@ -560,7 +560,7 @@
 			<m>n = 12</m>, 12 months in 1 year
 		</p>
 		<p>
-			<m>t = 20</m>, since we’re looking for how much we’ll have after 20 years
+			<m>t = 20</m>, since we're looking for how much we'll have after 20 years
 		</p>
 
 		<p>
@@ -575,7 +575,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/financial_math/2_2/future_value.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -659,7 +659,7 @@
 	</tabular>
 	</table>
 	<image source="images/financial_math/2_2/comparing_interest.png">
-	<description>A coordinate graph with years on the x-axis and account balance on the y-axis. The simple interest increases in a straight line; the compound interest curves up faster because it is an exponential function.</description>
+	<shortdescription>A coordinate graph with years on the x-axis and account balance on the y-axis. The simple interest increases in a straight line; the compound interest curves up faster because it is an exponential function.</shortdescription>
 	</image>
 </sidebyside>
 </subsection>
@@ -715,7 +715,7 @@
 	<example>
 		<statement>
 		<p>
-			You know that you will need $40,000 for your child’s education in 18 years. If your account earns 4% APR compounded quarterly, how much would you need to deposit now to reach your goal?
+			You know that you will need $40,000 for your child's education in 18 years. If your account earns 4% APR compounded quarterly, how much would you need to deposit now to reach your goal?
 		</p>
 		</statement>
 		<solution>
@@ -733,7 +733,7 @@
 		</p>
 		<sidebyside width="50%">
 			<image source="images/financial_math/2_2/present_value.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 		</image>
 		</sidebyside>
 		<p>
@@ -755,7 +755,7 @@
 			<m>A = \$40,000</m>, the amount we have in 18 years
 		</p>
 		<p>
-			In this case, we’re going to have to set up the equation, and solve for P.
+			In this case, we're going to have to set up the equation, and solve for P.
 		</p>
 
 		<p>
@@ -846,7 +846,7 @@
 				</p>
 			</stack>
 			<image source="images/financial_math/2_2/continuous_interest.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -919,7 +919,7 @@
 <subsection>
 	<title>Effective Rate</title>
 	<p>
-		If you are shopping around for different investments, you might need to compare different rates that have different compounding periods. If the rate and period are different, it’s hard to know which account will give the better result. There is a spreadsheet formula called <c>=EFFECT</c> which will allow us to compare accounts. This is also sometimes called the annual percentage yield, or APY.
+		If you are shopping around for different investments, you might need to compare different rates that have different compounding periods. If the rate and period are different, it's hard to know which account will give the better result. There is a spreadsheet formula called <c>=EFFECT</c> which will allow us to compare accounts. This is also sometimes called the annual percentage yield, or APY.
 	</p>
 	<assemblage>
 		<title>Effective Rate Formula</title>
@@ -969,7 +969,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_2/effective_rate1.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		<p>
@@ -986,7 +986,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_2/effective_rate2.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		
@@ -1021,7 +1021,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_2/effective_rate3.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 
@@ -1039,7 +1039,7 @@
 		</p>
 			</stack>
 			<image source="images/financial_math/2_2/effective_rate4.png">
-			<description>An image of the spreadsheet showing the formula used and the result.</description>
+			<shortdescription>An image of the spreadsheet showing the formula used and the result.</shortdescription>
 			</image>
 		</sidebyside>
 		
@@ -1076,7 +1076,7 @@
 	<statement>
 	<p>
 		You loan your friend $100. They agree to pay an annual interest rate of 3%, simple interest. Six months later they repay that loan.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					How much did they pay you?
@@ -1092,7 +1092,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1142,7 +1142,7 @@
 		You deposit $1,000 in an account that earns simple interest. The annual interest rate is 2.5%.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much interest will you earn in 5 years?
@@ -1158,7 +1158,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<md>
 					<mrow>I\amp=1000(0.025)(5)</mrow>
@@ -1185,7 +1185,7 @@
 	<statement>
 	<p>
 		Consider an investment of $20000 with an annual interest rate of 5%.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					If that investment is earning simple interest, how much will the investment be worth in 10 years?
@@ -1201,7 +1201,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1276,7 +1276,7 @@
 		Suppose you obtain a $3,000 Certificate of Deposit (CD) with a 3% APR, paid quarterly, with maturity in 5 years.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				What is the future value of the CD in 5 years?
@@ -1297,7 +1297,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1343,7 +1343,7 @@
 		You deposit $300 in an account earning 5% APR compounded annually. How much will you have in the account in 10 years?
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much will you have in the account in 10 years?
@@ -1364,7 +1364,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1411,7 +1411,7 @@
 		You deposit $2,000 in an account earning 3% APR compounded monthly.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much will you have in the account in 20 years?
@@ -1437,7 +1437,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1493,7 +1493,7 @@
 		You deposit $10,000 in an account earning 4% APR compounded weekly.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much will you have in the account in 25 years?
@@ -1519,7 +1519,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1617,7 +1617,7 @@
 		Breylan invests $1,200 in an account that earns 4.6% APR compounded quarterly and Angad invests the same amount in an account that earns 4.55% APR compounded weekly.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				What will their balances be after 15 years?
@@ -1638,7 +1638,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1706,7 +1706,7 @@
 		Bill invests $6,700 in a savings account that compounds interest monthly at 3.75% APR. Ted invests $6,500 in a savings account that compound interest annually at 3.8% APR.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Find the effective rate for each account.
@@ -1722,7 +1722,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Bill <c>=EFFECT(0.0375,12)</c> <m>=3.82%</m> and Ted <c>=EFFECT(0.038,1)</c> =3.8%. Bill has an effective rate of 3.82% and Ted has a rate of 3.8%.
@@ -1748,7 +1748,7 @@
 					Or, <c>=FV(0.038,5,0,6500)</c>
 				</p>
 				<p>
-					The account balances are $8,079.38 and $7,832.49. So, Bill’s balance is higher.
+					The account balances are $8,079.38 and $7,832.49. So, Bill's balance is higher.
 				</p>
 			</li>
 		</ol>
@@ -1761,7 +1761,7 @@
 		Bassel is comparing two accounts where one pays 3.45% APR quarterly and the second pays 3.4% APR daily.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				What is the effect rate for each?
@@ -1777,7 +1777,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<c>=EFFECT(0.0345,4)</c>= 3.49% and <c>=EFFECT(0.034,365)</c>= 3.46%. The effective rates are 3.49% and 3.46%.
@@ -1816,7 +1816,7 @@
 		You deposit $2,500 into an account earning 4% APR compounded continuously.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much will you have in the account in 10 years?
@@ -1837,7 +1837,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1883,7 +1883,7 @@
 		You deposit $1,000 into an account earning 5.75% APR compounded continuously.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much will you have in the account in 15 years?
@@ -1904,7 +1904,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -1950,7 +1950,7 @@
 		You deposit $5,000 in an account earning 4.5% APR compounded continuously.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much will you have in the account in 5 years?
@@ -1971,7 +1971,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -2017,7 +2017,7 @@
 		You deposit $10,000 in an account that earns 5.5% APR compounded continuously and your friend deposits $10,000 in an account that earns 5.5% APR compounded annually.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				How much more will you have in the account in 10 years?
@@ -2033,7 +2033,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 				<md>
@@ -2054,7 +2054,7 @@
 					Or, <c>=FV(0.055,10,0,10000)</c>
 				</p>
 				<p>
-					Your balance is $17,332.53 and your friend’s balance is $17,081.44.
+					Your balance is $17,332.53 and your friend's balance is $17,081.44.
 				</p>
 			</li>
 			<li>

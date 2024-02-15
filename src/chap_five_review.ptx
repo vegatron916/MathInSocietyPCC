@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<section xml:id="chap_five_review">
+<exercises xml:id="chap_five_review">
 <title>Chapter 5 Review</title>
-
-<exercises>
-<title>Review Exercises</title>
-
 
 <exercisegroup>
 	<introduction>
 		<p>
 			In exercises 1-4, determine the apportionment using
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
-						Hamilton’s Method
+						Hamilton's Method
 					</p>
 				</li>
 				<li>
 					<p>
-						Jefferson’s Method
+						Jefferson's Method
 					</p>
 				</li>
 				<li>
 					<p>
-						Webster’s Method
+						Webster's Method
 					</p>
 				</li>
 				<li>
@@ -60,7 +56,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 10 seats, B: 17 seats, C: 12 seats, D: 39 seats
@@ -95,7 +91,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 12 seats, B: 19 seats, C: 14 seats, D: 45 seats
@@ -148,7 +144,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 46 seats, B: 18 seats, C: 7 seats, D: 21 seats, E: 8 seats
@@ -183,7 +179,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A: 58 seats, B: 22 seats, C: 9 seats, D: 26 seats, E: 10 seats
@@ -215,7 +211,7 @@
 	<introduction>
 		<p>
 			In exercises 5-8, complete the following:
-			<ol label="a.">
+			<ol marker="a.">
 			<li>
 				<p>
 					How many voters voted in this election?
@@ -243,7 +239,7 @@
 			</li>
 			<li>
 				<p>
-					Find the winner under Copeland’s method.
+					Find the winner under Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -321,7 +317,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					There are 134 voters.
@@ -349,7 +345,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: F 3, G 2, H 1. F wins with Copeland’s method.
+					The points are: F 3, G 2, H 1. F wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -432,7 +428,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					There are 117 voters.
@@ -460,7 +456,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: I 2, J 2, L 2. I, J and L tie with Copeland’s method.
+					The points are: I 2, J 2, L 2. I, J and L tie with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -537,7 +533,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					There are 166 voters.
@@ -565,7 +561,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: M 1, N 2, O 3, P 4. P wins with Copeland’s method.
+					The points are: M 1, N 2, O 3, P 4. P wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -648,7 +644,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					There are 221 voters.
@@ -676,7 +672,7 @@
 			</li>
 			<li>
 				<p>
-					The points are: S 3, T 4, U 2, V 1. T wins with Copeland’s method.
+					The points are: S 3, T 4, U 2, V 1. T wins with Copeland's method.
 				</p>
 			</li>
 		</ol>
@@ -691,7 +687,7 @@
 			In each fictional country in problems 9-10, use the rules of the U.S. government to complete the table and determine the following:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The total number of electors in the state.
@@ -753,7 +749,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -862,7 +858,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -928,10 +924,10 @@
 <exercisegroup>
 	<introduction>
 		<p>
-			In each fictional country in problems 11-12, use the rules of the U.S. government (assume that all of a state’s electoral votes go to the candidate who received the majority of the votes in that state) to complete the table and determine the following:
+			In each fictional country in problems 11-12, use the rules of the U.S. government (assume that all of a state's electoral votes go to the candidate who received the majority of the votes in that state) to complete the table and determine the following:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The winner of the popular vote in the country and the percentage of votes they won.
@@ -993,7 +989,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1102,7 +1098,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1171,7 +1167,7 @@
 			In each fictional country in problems 13-14, use the rules of the U.S. government to complete the table and determine the following:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						The state that has the most electoral power
@@ -1230,7 +1226,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1334,7 +1330,7 @@
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<sidebyside>
 					<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -1401,7 +1397,7 @@
 			For each map in problems 15-16, complete the following:
 		</p>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						How many votes are needed for a majority?
@@ -1443,14 +1439,14 @@
 		</p>
 	<sidebyside width="40%">
 		<image source="images/democracy/5_5/review_exercise_15.png">
-		<description>A map with 5 districts drawn; Districts 1, 2, 4 and 5 have 4 D's and 5 R's each; District 3 has 9 D's and 0 R's.</description>
+		<shortdescription>A map with 5 districts drawn; Districts 1, 2, 4 and 5 have 4 D's and 5 R's each; District 3 has 9 D's and 0 R's.</shortdescription>
 		</image>
 		<p></p>
 	</sidebyside>
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 5 votes.
@@ -1546,14 +1542,14 @@
 		</p>
 	<sidebyside width="40%">
 		<image source="images/democracy/5_5/review_exercise_16.png">
-		<description>A map with 6 districts drawn; Districts 1 through 5 have 4 D's and 3 R's; District 6 has 1 D and 6 R's.</description>
+		<shortdescription>A map with 6 districts drawn; Districts 1 through 5 have 4 D's and 3 R's; District 6 has 1 D and 6 R's.</shortdescription>
 		</image>
 		<p></p>
 	</sidebyside>
 	</statement>
 	<solution>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A majority is 4 votes.
@@ -1651,5 +1647,3 @@
 </exercisegroup>
 
 </exercises>
-
-</section>

@@ -40,15 +40,12 @@
 </objectives>
 
 <introduction>
+	<title>Introduction to Statistics</title>
 	<figure>
       <caption>Alternative Video Lessons</caption>
       <video youtubeplaylist="PLsFUxEAXGFKRGT3SnCFjFzxm6mQmMrpCk" />
     </figure>
-</introduction>
 
-
-<introduction>
-	<title>Introduction to Statistics</title>
 	<p>
 		We are bombarded by information and statistics every day. But if we cannot distinguish credible information from misleading information, then we are vulnerable to manipulation and making decisions that are not in our best interest. Statistics provides tools for us to evaluate information critically. In this sense, statistics is one of the most important things to know about.
 	</p>
@@ -116,7 +113,7 @@
 	</p>
 	<sidebyside>
 		<image width="80%" source="images/statistics/3_1/statistical_process.png">
-		<description>5 rectangles indicating the 5 steps of the statistical process; 1. Identify the group you want to study, which is the population; 2. Identify the quantity you want to know about the population, which is the parameter; 3. Gather data by taking an unbiased sample or performing an experiment; 4. Graph the data and calculate statistics; 5. Estimate the parameter that you wanted to know with the margin of error and confidence interval.</description>
+		<shortdescription>5 rectangles indicating the 5 steps of the statistical process; 1. Identify the group you want to study, which is the population; 2. Identify the quantity you want to know about the population, which is the parameter; 3. Gather data by taking an unbiased sample or performing an experiment; 4. Graph the data and calculate statistics; 5. Estimate the parameter that you wanted to know with the margin of error and confidence interval.</shortdescription>
 		</image>
 	</sidebyside>
 </subsection>
@@ -219,7 +216,7 @@
 <subsection>
 	<title>Sampling</title>
 	<p>
-		As we mentioned in a previous section, the first thing we should do before conducting a survey is to identify the population that we want to study. Suppose we are hired by a politician to determine the amount of support they have among the electorate should they decide to run for another term. What population should we study? Every person in the district? Eligible voters might be better, but what if they don’t register? Registered voters may not vote. What about <q>likely voters?</q>
+		As we mentioned in a previous section, the first thing we should do before conducting a survey is to identify the population that we want to study. Suppose we are hired by a politician to determine the amount of support they have among the electorate should they decide to run for another term. What population should we study? Every person in the district? Eligible voters might be better, but what if they don't register? Registered voters may not vote. What about <q>likely voters?</q>
 	</p>
 
 	<p>
@@ -299,7 +296,7 @@
 	</p>
 	<example>
 		<p>
-			To select a systematic sample, Portland Community College could use their database to select a random student from the first 100 student ID numbers. Then they would select every 100th student ID number after that. Systematic sampling is not as random as a simple random sample (if your ID number is right next to your friend’s because you applied at the same time, you could not both end up in the same sample) but it can yield acceptable samples. This method can be useful for people waiting in lines, parts on a manufacturing line, or plants in a row.
+			To select a systematic sample, Portland Community College could use their database to select a random student from the first 100 student ID numbers. Then they would select every 100th student ID number after that. Systematic sampling is not as random as a simple random sample (if your ID number is right next to your friend's because you applied at the same time, you could not both end up in the same sample) but it can yield acceptable samples. This method can be useful for people waiting in lines, parts on a manufacturing line, or plants in a row.
 		</p>
 	</example>
 </subsection>
@@ -351,10 +348,10 @@
 	</p>
 	<example>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
-						Consider a recent study which found that chewing gum may raise math grades in teenagers<fn>Reuters. <url href="http://news.yahoo.com/s/nm/20090423/od_uk_nm/oukoe_uk_gum_learning">http://news.yahoo.com/s/nm/20090423/od_uk_nm/oukoe_uk_gum_learning</url>. Retrieved 4/27/09</fn>. This study was conducted by the Wrigley Science Institute, a branch of the Wrigley chewing gum company. This is an example of a self-interest study; one in which the researches have a vested interest in the outcome of the study. While this does not necessarily mean the study was biased, we should subject the study to extra scrutiny.
+						Consider a recent study which found that chewing gum may raise math grades in teenagers<fn>Reuters. <url href="http://news.yahoo.com/s/nm/20090423/od_uk_nm/oukoe_uk_gum_learning" visual="news.yahoo.com/s/nm/20090423/od_uk_nm/oukoe_uk_gum_learning"/>. Retrieved 4/27/09</fn>. This study was conducted by the Wrigley Science Institute, a branch of the Wrigley chewing gum company. This is an example of a self-interest study; one in which the researches have a vested interest in the outcome of the study. While this does not necessarily mean the study was biased, we should subject the study to extra scrutiny.
 					</p>
 				</li>
 				<li>
@@ -379,14 +376,14 @@
 				</li>
 				<li>
 					<p>
-						A poll was conducted by phone with the question, “Do you often have time to relax and read a book?” Fifty percent of the people who were called refused to participate in the survey (Probably because they didn’t have the time). It is unlikely that the results will be representative of the entire population. This is an example of non-response bias.
+						A poll was conducted by phone with the question, “Do you often have time to relax and read a book?” Fifty percent of the people who were called refused to participate in the survey (Probably because they didn't have the time). It is unlikely that the results will be representative of the entire population. This is an example of non-response bias.
 					</p>
 				</li>
 			</ol>
 		</p>
 	</example>
 	<p>
-		Loaded questions can occur intentionally by pollsters with an agenda, or accidentally through poor question wording. Also of concern is question order, where the order of questions changes the results. Here is an example from a psychology researcher<fn>Swartz, Norbert. <url href="http://www.umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html">http://www.umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html</url> Retrieved 3/31/2009</fn>:
+		Loaded questions can occur intentionally by pollsters with an agenda, or accidentally through poor question wording. Also of concern is question order, where the order of questions changes the results. Here is an example from a psychology researcher<fn>Swartz, Norbert. <url href="http://www.umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html" visual="umich.edu/~newsinfo/MT/01/Fal01/mt6f01.html"/> Retrieved 3/31/2009</fn>:
 	</p>
 	<example>
 		 <p>
@@ -409,10 +406,10 @@
 	</p>
 	<example>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
-						A pharmaceutical company tests a new medicine for treating Alzheimer’s disease by administering the drug to 50 elderly patients with recent diagnoses. The treatment here is the new drug.
+						A pharmaceutical company tests a new medicine for treating Alzheimer's disease by administering the drug to 50 elderly patients with recent diagnoses. The treatment here is the new drug.
 					</p>
 				</li>
 				<li>
@@ -422,12 +419,12 @@
 				</li>
 				<li>
 					<p>
-						A psychology researcher explores the effect of music on affect by measuring people’s mood while listening to different types of music. The music is the treatment.
+						A psychology researcher explores the effect of music on affect by measuring people's mood while listening to different types of music. The music is the treatment.
 					</p>
 				</li>
 				<li>
 					<p>
-						Suppose a middle school finds that their students are not scoring well on the state’s standardized math test. They decide to run an experiment to see if a new curriculum would improve scores. To run the test, they hire a math specialist to come in and teach a class using the new curriculum. To their delight, they see an improvement in test scores.
+						Suppose a middle school finds that their students are not scoring well on the state's standardized math test. They decide to run an experiment to see if a new curriculum would improve scores. To run the test, they hire a math specialist to come in and teach a class using the new curriculum. To their delight, they see an improvement in test scores.
 					</p>
 					<p>
 						The difficulty with the last scenario is that it is not clear whether the new curriculum or the math specialist is responsible for the improvement. This is called confounding and it is the downfall of many experiments, though it is often hidden.
@@ -445,7 +442,7 @@
 	</p>
 	<example>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						A drug company study about a weight loss pill might report that people lost an average of 8 pounds while using their new drug. However, in the fine print you find a statement saying that participants were encouraged to also diet and exercise. It is not clear in this case whether the weight loss is due to the pill, to diet and exercise, or a combination of both. In this case confounding has occurred.
@@ -474,7 +471,7 @@
 	</p>
 	<example>
 		<p>
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						To determine if a two-day prep course would help high school students improve their scores on the SAT test, a group of students was randomly divided into two subgroups. The first group, the treatment group, was given a two-day prep course. The second group, the control group, was not given the prep course. Afterwards, both groups took the SAT test.
@@ -496,7 +493,7 @@
 <subsection>
 	<title>Placebo effect</title>
 	<p>
-		The <alert>placebo effect</alert> is when the effectiveness of a treatment is influenced by the patient’s perception of how effective they think the treatment will be, so a result might be seen even if the treatment is ineffectual.
+		The <alert>placebo effect</alert> is when the effectiveness of a treatment is influenced by the patient's perception of how effective they think the treatment will be, so a result might be seen even if the treatment is ineffectual.
 	</p>
 	<example>
 		<p>
@@ -515,7 +512,7 @@
 	</p>
 	<example>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In a study for a new medicine that is dispensed in a pill form, a sugar pill could be used as a placebo. 
@@ -543,7 +540,7 @@
 <subsection>
 	<title>Blind studies</title>
 	<p>
-		A <alert>blind study</alert> is one that uses a placebo and the participants do not know whether they are receiving the treatment or a placebo. A <alert>double-blind study</alert> is one in which the subjects and those interacting with them don’t know who is in the treatment group and who is in the control group.
+		A <alert>blind study</alert> is one that uses a placebo and the participants do not know whether they are receiving the treatment or a placebo. A <alert>double-blind study</alert> is one in which the subjects and those interacting with them don't know who is in the treatment group and who is in the control group.
 	</p>
 	<example>
 		<p>
@@ -555,11 +552,11 @@
 <subsection>
 	<title>Margin of Error and Confidence Intervals</title>
 	<p>
-		Even when a study or experiment has successfully avoided bias and has been well done, there is still an element of variation. If we took 5 different random samples of 100 college students and calculated their average textbook cost, we wouldn’t expect to get the exact same average for each sample. This is due to sampling variation. To account for this, researchers publish their margin of error or a confidence interval for their statistics. These numbers describe the precision of the estimate for a certain confidence level. 
+		Even when a study or experiment has successfully avoided bias and has been well done, there is still an element of variation. If we took 5 different random samples of 100 college students and calculated their average textbook cost, we wouldn't expect to get the exact same average for each sample. This is due to sampling variation. To account for this, researchers publish their margin of error or a confidence interval for their statistics. These numbers describe the precision of the estimate for a certain confidence level. 
 	</p>
 
 	<p>
-		You’ve probably heard something like, <q>The candidate has 54 percent of the likely voters, plus or minus three percent.</q> The 3% is called the <alert>margin of error</alert>, so the true percentage is somewhere between 51% and 57%, with a certain level of confidence. To write this as a <alert>confidence interval</alert>, we place the numbers in parentheses from smallest to largest, separated by a comma: (51%, 57%).
+		You've probably heard something like, <q>The candidate has 54 percent of the likely voters, plus or minus three percent.</q> The 3% is called the <alert>margin of error</alert>, so the true percentage is somewhere between 51% and 57%, with a certain level of confidence. To write this as a <alert>confidence interval</alert>, we place the numbers in parentheses from smallest to largest, separated by a comma: (51%, 57%).
 	</p>
 
 	<p>
@@ -568,7 +565,7 @@
 	<example>
 		<statement>
 		<p>
-			Let’s say we asked a random sample of 100 students at Portland Community College and found that they spent an average of $451.32 on books their first year, plus or minus $85.63. Write this as a confidence interval, assuming a 95% confidence level.
+			Let's say we asked a random sample of 100 students at Portland Community College and found that they spent an average of $451.32 on books their first year, plus or minus $85.63. Write this as a confidence interval, assuming a 95% confidence level.
 		</p>
 		</statement>
 		<solution>
@@ -622,7 +619,7 @@
 	<statement>
 	<p>
 		The ASPCC randomly selects 200 students from PCC Cascade campus to participate in a childcare survey in order to determine the demand for additional childcare options for PCC students.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Who is the intended population?
@@ -644,7 +641,7 @@
 	<solution>
 	<p>
 		The intended population is all PCC students.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					All PCC Students
@@ -668,8 +665,8 @@
 <exercise>
 	<statement>
 	<p>
-		A local research firm randomly selects 1200 homes in Washington County to determine support for adding compost pick up to residents’ regular garbage service.
-		<ol label="a.">
+		A local research firm randomly selects 1200 homes in Washington County to determine support for adding compost pick up to residents' regular garbage service.
+		<ol marker="a.">
 			<li>
 				<p>
 					Who is the intended population?
@@ -690,7 +687,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The intended population is all Washington County residences.
@@ -717,7 +714,7 @@
 		A political scientist surveys 28 of the current 106 representatives in a state's congress. Of them, 14 said they were supporting a new education bill, 12 said there were not supporting the bill, and 2 were undecided.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Who is the population of this survey?
@@ -748,7 +745,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					The representatives in a state's congress.	
@@ -785,7 +782,7 @@
 		The city of Raleigh has 9,500 registered voters. There are two candidates for city council in an upcoming election: Brown and Feliz. The day before the election, a telephone poll of 350 randomly selected registered voters was conducted. 112 said they'd vote for Brown, 207 said they'd vote for Feliz, and 31 were undecided.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Who is the population of this survey?
@@ -816,7 +813,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					All registered voters in the city of Raleigh.
@@ -918,7 +915,7 @@
 		Which sampling method is being described?
 	</p>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					In a study, the sample is chosen by separating all cars by size and selecting 10 of each size grouping.
@@ -926,7 +923,7 @@
 			</li>
 			<li>
 				<p>
-					In a study, the sample is chosen by writing everyone’s name on a playing card, shuffling the deck, then choosing the top 20 cards.
+					In a study, the sample is chosen by writing everyone's name on a playing card, shuffling the deck, then choosing the top 20 cards.
 				</p>
 			</li>
 			<li>
@@ -939,7 +936,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Stratified
@@ -966,7 +963,7 @@
 		Which sampling method is being described?
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				A sample was selected to contain 25 people aged 18-34 and 30 people aged 35-70.
@@ -974,7 +971,7 @@
 		</li>
 		<li>
 			<p>
-				Viewers of a new show are asked to respond to a poll on the show’s website.
+				Viewers of a new show are asked to respond to a poll on the show's website.
 			</p>
 		</li>
 		<li>
@@ -987,7 +984,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Stratified
@@ -1014,7 +1011,7 @@
 		Identify the most relevant source of bias in each situation.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				A survey asks the following: Should the mall prohibit loud and annoying rock music in clothing stores catering to teenagers?
@@ -1050,7 +1047,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Volunteer Bias
@@ -1092,7 +1089,7 @@
 		Identify the most relevant source of bias in each situation.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				A survey asks the following: Should the death penalty be permitted if innocent people might die?
@@ -1128,7 +1125,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Loaded Question
@@ -1170,7 +1167,7 @@
 		Identify whether each situation describes an observational study or an experiment.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				The temperature on randomly selected days throughout the year was measured.
@@ -1191,7 +1188,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Observational study
@@ -1218,7 +1215,7 @@
 		Identify whether each situation describes an observational study or an experiment.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Subjects are asked to do 20 jumping jacks, and then their heart rates are measured.
@@ -1239,7 +1236,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Observational study
@@ -1266,7 +1263,7 @@
 		A team of researchers is testing the effectiveness of a new vaccine for human papilloma virus (HPV). They randomly divide the subjects into two groups. Group 1 receives new HPV vaccine, and Group 2 receives the existing HPV vaccine. The patients in the study do not know which group they are in.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Which is the treatment group?
@@ -1292,7 +1289,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Group 1
@@ -1324,7 +1321,7 @@
 		Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment. Suppose that a new cancer treatment is under study. Of interest is the average length of time in months patients live once starting the treatment. Two researchers each follow a different set of 40 cancer patients throughout this new treatment.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				What is the population of this study?
@@ -1350,7 +1347,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Cancer patients
@@ -1382,7 +1379,7 @@
 		For the clinical trials of a weight loss drug containing <em>Garcinia Cambogia</em> the subjects were randomly divided into two groups. The first received an inert pill along with an exercise and diet plan, while the second received the test medicine along with the same exercise and diet plan. The patients do not know which group they are in, nor do the fitness and nutrition advisors.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Which is the treatment group?
@@ -1408,7 +1405,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					2nd Group
@@ -1440,7 +1437,7 @@
 		A study is conducted to determine whether people learn better with routine or crammed studying. Subjects volunteer from an introductory psychology class. At the beginning of the semester 12 subjects volunteer and are assigned to the routine studying group. At the end of the semester 12 subjects volunteer and are assigned to the crammed studying group.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				Identify the target population and the sample.
@@ -1461,7 +1458,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					All students
@@ -1490,7 +1487,7 @@
 	</statement>
 	<solution>
 		<p>
-			The control group would be the group that were ask to tell the truth. It is a blind study because the person who is administering the lie detector test doesn’t know which group each person is in.
+			The control group would be the group that were ask to tell the truth. It is a blind study because the person who is administering the lie detector test doesn't know which group each person is in.
 		</p>
 	</solution>
 </exercise>
@@ -1501,7 +1498,7 @@
 		A poll found that 30%, plus or minus 5% of college freshmen prefer morning classes to afternoon classes.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				What is the margin of error?
@@ -1522,7 +1519,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					0.05 or 5%
@@ -1549,7 +1546,7 @@
 		A poll found that 38% of U.S. employees are engaged at work, plus or minus 3.5%.
 	</p>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				What is the margin of error?
@@ -1570,7 +1567,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					3.5% or 0.035
@@ -1595,7 +1592,7 @@
 	<statement>
 	<p>
 		A recent study reported a confidence interval of (24%, 36%) for the percentage of U.S. adults who plan to purchase an electric car in the next 5 years.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the statistic from this study?
@@ -1611,7 +1608,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<m>(24+36)/2=30</m>. The statistic is 30%.
@@ -1631,7 +1628,7 @@
 	<statement>
 	<p>
 		A recent study reported a confidence interval of (44%, 52%) for the percentage of two-year college students who are food insecure.
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the statistic from this study?
@@ -1647,7 +1644,7 @@
 	</statement>
 	<solution>
 		<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<m>(44+52)/2=48</m>. The statistic is 48%.
@@ -1671,7 +1668,7 @@
 	</statement>
 	<solution>
 		<p>
-			Play Barry Manilow to half the crop and don’t play any music to the other half of the crop.
+			Play Barry Manilow to half the crop and don't play any music to the other half of the crop.
 		</p>
 	</solution>
 </exercise>
@@ -1690,10 +1687,10 @@
 			Observational: Survey adults who played sports as a child. Ask them if they consider themselves extroverted or introverted. Record the percentage of each personality type.
 		</p>
 		<p>
-			Experimental: Survey adults and ask them if they played sports as children. Ask them if they consider themselves extroverted or introverted.  Compare the results of adults who played sports as children with the adults who didn’t play sports as children.
+			Experimental: Survey adults and ask them if they played sports as children. Ask them if they consider themselves extroverted or introverted.  Compare the results of adults who played sports as children with the adults who didn't play sports as children.
 		</p>
 		<p>
-			Which is more practical? The Experimental study would allow you to see if there is a significant difference in the personality types based on if the person played sports or didn’t play sports.
+			Which is more practical? The Experimental study would allow you to see if there is a significant difference in the personality types based on if the person played sports or didn't play sports.
 		</p>
 	</solution>
 </exercise>
@@ -1701,7 +1698,7 @@
 <exercise>
 	<statement>
 	<p>
-		Find a newspaper or magazine article, or the online equivalent, describing the results of a recent study (not a simple poll). Give a summary of the study’s findings, then analyze whether the article provided enough information to determine the validity of the conclusions. If not, produce a list of things that are missing from the article that would help you determine the validity of the study. Look for the things discussed in the text: population, sample, randomness, blind, control, margin of error, etc.
+		Find a newspaper or magazine article, or the online equivalent, describing the results of a recent study (not a simple poll). Give a summary of the study's findings, then analyze whether the article provided enough information to determine the validity of the conclusions. If not, produce a list of things that are missing from the article that would help you determine the validity of the study. Look for the things discussed in the text: population, sample, randomness, blind, control, margin of error, etc.
 	</p>
 	</statement>
 	<solution>
@@ -1714,7 +1711,7 @@
 <exercise>
 	<statement>
 	<p>
-		Use a polling website such as <url href="http://www.pewresearch.com/">www.pewresearch.com</url> or <url href="http://www.gallup.com/">www.gallup.com</url> and search for a poll that interests you. Find the result, the margin of error and confidence level for the poll and write the confidence interval.
+		Use a polling website such as <url href="http://www.pewresearch.com/" visual="pewresearch.com"/> or <url href="http://www.gallup.com/" visual="gallup.com"/> and search for a poll that interests you. Find the result, the margin of error and confidence level for the poll and write the confidence interval.
 	</p>
 	</statement>
 	<solution>

@@ -49,11 +49,6 @@
       <caption>Alternative Video Lesson</caption>
       <video youtube="_NCjGWdcNmQ" />
     </figure>
-</introduction>
-
-
-
-<introduction>
 	<p>
 		When we looked at categorical data in the previous chapter, it was related to a single variable, or characteristic of interest, such as favorite movie or car color. To illustrate the data, we made a frequency table and used it to create a pie chart or bar chart. But what if we want to illustrate the relationship between two categorical variables? To do this, we can use a contingency table.
 	</p>
@@ -230,7 +225,7 @@
 	</p>
 	<sidebyside width="35%">
 		<image source="images/probability/4_1/cont_table_venn.png">
-		<description>A Venn diagram with two overlapping circles and a box around it. The Cat only region shows 180-52=128; The dog only region shows 95-52=43; the interesection is 52 and the number outside the circles in the universal set is 27.</description>
+		<shortdescription>A Venn diagram with two overlapping circles and a box around it. The Cat only region shows 180-52=128; The dog only region shows 95-52=43; the interesection is 52 and the number outside the circles in the universal set is 27.</shortdescription>
 		</image>
 	</sidebyside>
 
@@ -320,7 +315,7 @@
 	<title>Conditional Statements</title>
 
 	<p>
-		Another question we can answer using a contingency table is what percentage of dog owning households also own a cat? In this case the group that we are interested in isn’t every household surveyed (the grand total), but just those households that own a dog.
+		Another question we can answer using a contingency table is what percentage of dog owning households also own a cat? In this case the group that we are interested in isn't every household surveyed (the grand total), but just those households that own a dog.
 	</p>
 	<sidebyside>
 		<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -364,7 +359,7 @@
 <example>
 	<statement>
 	<p>
-		910 randomly sampled registered voters from Tampa, FL were asked if they thought workers who have illegally entered the US should (i) be allowed to keep their jobs and apply for US citizenship, (ii) be allowed to keep their jobs as temporary guest workers but not be allowed to apply for US citizenship, or (iii) lose their jobs and have to leave the country. Not sure was also an option (iv). The results of the survey by political ideology are shown below<fn>SurveyUSA, <url href="http://www.surveyusa.com/client/PollReport.aspx?g=60d6fa81-2698-4c51-a5f8-714f40976df2">News Poll #18927</url>, data collected Jan 27-29, 2012. Example adapted from <url href="https://www.openintro.org/">Open Intro: Advanced High School Statistics</url>, by Diez et al, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC-BY-SA 3.0</url>.</fn>. Use the contingency table to answer the questions.
+		910 randomly sampled registered voters from Tampa, FL were asked if they thought workers who have illegally entered the US should (i) be allowed to keep their jobs and apply for US citizenship, (ii) be allowed to keep their jobs as temporary guest workers but not be allowed to apply for US citizenship, or (iii) lose their jobs and have to leave the country. Not sure was also an option (iv). The results of the survey by political ideology are shown below<fn>SurveyUSA, <url href="http://www.surveyusa.com/client/PollReport.aspx?g=60d6fa81-2698-4c51-a5f8-714f40976df2" visual="surveyusa.com/client/PollReport.aspx?g=60d6fa81-2698-4c51-a5f8-714f40976df2">News Poll #18927</url>, data collected Jan 27-29, 2012. Example adapted from <url href="https://www.openintro.org/" visual="openintro.org">Open Intro: Advanced High School Statistics</url>, by Diez et al, used under <url href="https://creativecommons.org/licenses/by-sa/3.0/us/" visual="creativecommons.org/licenses/by-sa/3.0/us">CC-BY-SA 3.0</url>.</fn>. Use the contingency table to answer the questions.
 	</p>
 	<sidebyside>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -413,7 +408,7 @@
 	</tabular>
 	</sidebyside>
 	<p>
-	<ol label="a.">
+	<ol marker="a.">
 		<li>
 			<p>
 				What percent of the sampled Tampa, Fl voters identified themselves as conservatives?
@@ -544,7 +539,7 @@
 <subsection>
 <title>Finding Empirical Probabilities with a Contingency Table</title>
 <p>
-	Suppose that 60% of students in our class have a summer birthday (June, July, or August). Now suppose everyone’s name and birth month are written on slips of paper and thrown into a bag. If we pull a slip of paper out of the bag at random, what is the probability that the selected student has a summer birthday? If you think there should be a 60% chance, you are right! The relative frequency of the characteristic of interest will be equal to its empirical probability. To write this as a probability statement, it would look like
+	Suppose that 60% of students in our class have a summer birthday (June, July, or August). Now suppose everyone's name and birth month are written on slips of paper and thrown into a bag. If we pull a slip of paper out of the bag at random, what is the probability that the selected student has a summer birthday? If you think there should be a 60% chance, you are right! The relative frequency of the characteristic of interest will be equal to its empirical probability. To write this as a probability statement, it would look like
 </p>
 <p>
 	<md>
@@ -553,7 +548,7 @@
 </p>
 
 <p>
-	Probability is a function named <em>P</em>, and the function is applied to what follows in the parentheses. Let’s look at another example where we write probability statements and find empirical probabilities.
+	Probability is a function named <em>P</em>, and the function is applied to what follows in the parentheses. Let's look at another example where we write probability statements and find empirical probabilities.
 </p>
 
 <example>
@@ -591,7 +586,7 @@
 	</sidebyside>
 	<p>
 		Find the probability that a randomly selected survey participant:
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					has a red car.
@@ -632,7 +627,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -884,7 +879,7 @@
 		<statement>
 		<p>
 			A home pregnancy test was given to a sample of 93 cisgender women, and their pregnancy was then verified by a blood test. The contingency table below shows the home pregnancy test and whether or not they were actually pregnant as determined by the blood test. Find the probability that a randomly selected woman in the sample
-			<ol label="a.">
+			<ol marker="a.">
 				<li>
 					<p>
 						was not pregnant given the home test was positive.
@@ -929,7 +924,7 @@
 		<solution>
 		<p>
 		 	Here are the solutions:
-		 	<ol label="a.">
+		 	<ol marker="a.">
 		 		<li>
 		 			<p>
 		 				Since we are given the home test result was positive, we are limited to the 75 women in the positive test column, of which 5 were not pregnant. This gives:
@@ -1163,7 +1158,7 @@
 	</p>
 	<sidebyside widths="32% 60%">
 		<image source="images/probability/4_1/breakfast_floss_venn.png">
-		<description>A Venn diagram where the breakfast only region shows 3, the floss only region shows 49, the intersection shows 12 and the region outside the circles shows 8 students</description>
+		<shortdescription>A Venn diagram where the breakfast only region shows 3, the floss only region shows 49, the intersection shows 12 and the region outside the circles shows 8 students</shortdescription>
 		</image>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
@@ -1233,7 +1228,7 @@
 	</p>
 	<sidebyside widths="32% 60%">
 		<image source="images/probability/4_1/apple_chrome_venn.png">
-		<description>A Venn diagram where the Apple only region shows 120, the Chromebook only region shows 85, the intersection is 65 and the outside region is 45 students.</description>
+		<shortdescription>A Venn diagram where the Apple only region shows 120, the Chromebook only region shows 85, the intersection is 65 and the outside region is 45 students.</shortdescription>
 		</image>
 	<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
 		<row header="yes">
@@ -1502,7 +1497,7 @@
 	</sidebyside>
 	<p>	
 		If one student was chosen at random:
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the probability they were in the morning class?
@@ -1533,7 +1528,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -1622,7 +1617,7 @@
 	</sidebyside>
 	<p>	
 		If one student was chosen at random:
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the probability they were in the morning class?
@@ -1653,7 +1648,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -1738,7 +1733,7 @@
 	</sidebyside>
 	<p>
 		If one person was chosen at random:
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the probability they had no credit cards?
@@ -1779,7 +1774,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -1872,7 +1867,7 @@
 	</tabular>
 	</sidebyside>
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the probability that a person was inoculated?
@@ -1908,7 +1903,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -2001,7 +1996,7 @@
 	</tabular>
 	</sidebyside>
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the probability that a passenger did not survive?
@@ -2039,7 +2034,7 @@
 			</li>
 			<li>
 				<p>
-					Does it appear that survival depended on the passenger’s class? Or are they independent? Use probability to support your claim.	
+					Does it appear that survival depended on the passenger's class? Or are they independent? Use probability to support your claim.	
 				</p>
 			</li>
 		</ol>
@@ -2047,7 +2042,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -2106,7 +2101,7 @@
 			</li>
 			<li>
 				<p>
-					Yes, it does appear that survival depended on the passenger’s class. The probability of survival for first class passengers is significantly greater than the probability of survival for second class passengers and is more than double the probability of survival for third class passengers.
+					Yes, it does appear that survival depended on the passenger's class. The probability of survival for first class passengers is significantly greater than the probability of survival for second class passengers and is more than double the probability of survival for third class passengers.
 				</p>
 			</li>
 		</ol>
@@ -2152,7 +2147,7 @@
 	</tabular>
 	</sidebyside>
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					What is the probability that a patent is foreign and from the government?
@@ -2183,7 +2178,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					<md>
@@ -2235,7 +2230,7 @@
 		There is a 15% chance that a shopper entering a computer store will purchase a computer, a 25% chance they will purchase a game/software, and there is a 10% chance they will purchase both a computer and a game/software.
 	</p>
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Create a contingency table for the information.
@@ -2299,7 +2294,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2379,7 +2374,7 @@
 	</p>
 
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Create a contingency table for the information.
@@ -2448,7 +2443,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2535,7 +2530,7 @@
 		Among the 95 books on a bookshelf, 72 are fiction, 28 are hardcover, and 87 are fiction or hardcover.
 	</p>
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Create a contingency table for the information.
@@ -2584,7 +2579,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
@@ -2642,7 +2637,7 @@
 		After finishing the course, among the 32 students in a Math 105 class, 25 could successfully construct a contingency table, 27 passed the class, and 29 could successfully construct a contingency table or passed the class.
 	</p>
 	<p>	
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<p>
 					Create a contingency table for the information. 
@@ -2691,7 +2686,7 @@
 	</statement>
 	<solution>
 	<p>
-		<ol label="a.">
+		<ol marker="a.">
 			<li>
 				<sidebyside>
 				<tabular halign="center" top="minor" left="minor" right="minor" bottom="minor">
